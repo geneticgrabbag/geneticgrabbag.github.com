@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: personal | Evan P. Mills' Ramblings]]></title>
-  <link href="http://geneticgrabbag.github.com/blog/categories/personal/atom.xml" rel="self"/>
-  <link href="http://geneticgrabbag.github.com/"/>
-  <updated>2012-07-16T22:27:18-04:00</updated>
-  <id>http://geneticgrabbag.github.com/</id>
+  <link href="http://blog.epmills.com/blog/categories/personal/atom.xml" rel="self"/>
+  <link href="http://blog.epmills.com/"/>
+  <updated>2012-07-16T22:36:26-04:00</updated>
+  <id>http://blog.epmills.com/</id>
   <author>
     <name><![CDATA[Evan P. Mills]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[LG Env Touch + Mac - Contacts]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
+    <link href="http://blog.epmills.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
     <updated>2009-08-08T09:22:38-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts</id>
+    <id>http://blog.epmills.com/blog/2009/08/08/lg-env-touch--mac---contacts</id>
     <content type="html"><![CDATA[<p>Stumbled upon a really simple but effective way to copy your contacts from
 your <a href="http://www.apple.com/macosx/" title="Apple Mac OS/X">OS/X</a>
 <a href="http://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html" title="Apple Mac Address Book">Address Book</a>
@@ -53,9 +53,9 @@ for creating such a nice utility!</p>
   
   <entry>
     <title type="html"><![CDATA[Kwanmu]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2009/07/14/kwanmu/"/>
+    <link href="http://blog.epmills.com/blog/2009/07/14/kwanmu/"/>
     <updated>2009-07-14T03:49:00-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2009/07/14/kwanmu</id>
+    <id>http://blog.epmills.com/blog/2009/07/14/kwanmu</id>
     <content type="html"><![CDATA[<h2>Variable Ippon</h2>
 
 <ul>
@@ -70,9 +70,9 @@ for creating such a nice utility!</p>
   
   <entry>
     <title type="html"><![CDATA[Note-to-Self: It's Not ALL Misery]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/09/18/note-to-self-its-not-all-misery/"/>
+    <link href="http://blog.epmills.com/blog/2008/09/18/note-to-self-its-not-all-misery/"/>
     <updated>2008-09-18T05:33:18-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/09/18/note-to-self-its-not-all-misery</id>
+    <id>http://blog.epmills.com/blog/2008/09/18/note-to-self-its-not-all-misery</id>
     <content type="html"><![CDATA[<p><a href="http://lookatmeshirts.com/">Look At Me Shirts</a> has a
 <a href="http://lookatmeshirts.com/details.php?pid=394">great take</a> on the recent
 destruction here in Cincy.</p>
@@ -85,9 +85,9 @@ destruction here in Cincy.</p>
   
   <entry>
     <title type="html"><![CDATA[Source for Cheatsheets]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets/"/>
+    <link href="http://blog.epmills.com/blog/2008/09/09/source-for-cheatsheets/"/>
     <updated>2008-09-09T09:17:03-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets</id>
+    <id>http://blog.epmills.com/blog/2008/09/09/source-for-cheatsheets</id>
     <content type="html"><![CDATA[<p>Check out <a href="http://www.addedbytes.com" title="Added Bytes">Added Bytes</a> and subscribe
 to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
 ]]></content>
@@ -95,9 +95,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Note-to-Self: Comparison on DVCS Options]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options/"/>
+    <link href="http://blog.epmills.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options/"/>
     <updated>2008-07-09T11:24:21-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options</id>
+    <id>http://blog.epmills.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options</id>
     <content type="html"><![CDATA[<p>Check out
 <a href="http://www.warneronstine.com/blog/articles/2008/07/07/git-mercurial-or-bazaar">this blog entry</a>
 for information on comparing popular distributed version control systems.</p>

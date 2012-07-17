@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: technology | Evan P. Mills' Ramblings]]></title>
-  <link href="http://geneticgrabbag.github.com/blog/categories/technology/atom.xml" rel="self"/>
-  <link href="http://geneticgrabbag.github.com/"/>
-  <updated>2012-07-16T22:27:18-04:00</updated>
-  <id>http://geneticgrabbag.github.com/</id>
+  <link href="http://blog.epmills.com/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://blog.epmills.com/"/>
+  <updated>2012-07-16T22:36:26-04:00</updated>
+  <id>http://blog.epmills.com/</id>
   <author>
     <name><![CDATA[Evan P. Mills]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Source for Cheatsheets]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets/"/>
+    <link href="http://blog.epmills.com/blog/2008/09/09/source-for-cheatsheets/"/>
     <updated>2008-09-09T09:17:03-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets</id>
+    <id>http://blog.epmills.com/blog/2008/09/09/source-for-cheatsheets</id>
     <content type="html"><![CDATA[<p>Check out <a href="http://www.addedbytes.com" title="Added Bytes">Added Bytes</a> and subscribe
 to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
 ]]></content>
@@ -25,9 +25,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Note-to-Self: Java Passion]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion/"/>
+    <link href="http://blog.epmills.com/blog/2008/07/17/note-to-self-java-passion/"/>
     <updated>2008-07-17T12:34:47-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion</id>
+    <id>http://blog.epmills.com/blog/2008/07/17/note-to-self-java-passion</id>
     <content type="html"><![CDATA[<p>Make sure to check out free online Java-related learning at
 <a href="http://www.javapassion.com">http://www.javapassion.com</a>.</p>
 ]]></content>
@@ -35,9 +35,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Solaris Goodness]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness/"/>
+    <link href="http://blog.epmills.com/blog/2008/05/29/solaris-goodness/"/>
     <updated>2008-05-29T13:36:48-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness</id>
+    <id>http://blog.epmills.com/blog/2008/05/29/solaris-goodness</id>
     <content type="html"><![CDATA[<p>Note-to-self: Add <a href="http://prefetch.net/">Prefetch Technologies</a> and
 <a href="http://prefetch.net/blog/">Blog o'Matty</a> to my list of feeds.</p>
 
@@ -47,9 +47,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Background Processing in a Spring Web Application]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/05/01/background-processing-in-a-spring-web-application/"/>
+    <link href="http://blog.epmills.com/blog/2008/05/01/background-processing-in-a-spring-web-application/"/>
     <updated>2008-05-01T13:46:14-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/05/01/background-processing-in-a-spring-web-application</id>
+    <id>http://blog.epmills.com/blog/2008/05/01/background-processing-in-a-spring-web-application</id>
     <content type="html"><![CDATA[<p>From the "Huh, well that's cool" department...</p>
 
 <p>Today I figured how to run a background process from within a web application
@@ -77,9 +77,9 @@ for more information.</p>
   
   <entry>
     <title type="html"><![CDATA[Internet Jive]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/04/25/internet-jive/"/>
+    <link href="http://blog.epmills.com/blog/2006/04/25/internet-jive/"/>
     <updated>2006-04-25T06:57:06-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/04/25/internet-jive</id>
+    <id>http://blog.epmills.com/blog/2006/04/25/internet-jive</id>
     <content type="html"><![CDATA[<p>Confused by the acronyms you see in instant messages or web pages?</p>
 
 <p>I found a great <a href="http://www.2entwine.com/faq/#16" title="Internet Jive">list</a> in the

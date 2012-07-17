@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: food-beverage | Evan P. Mills' Ramblings]]></title>
-  <link href="http://geneticgrabbag.github.com/blog/categories/food-beverage/atom.xml" rel="self"/>
-  <link href="http://geneticgrabbag.github.com/"/>
-  <updated>2012-07-16T22:27:18-04:00</updated>
-  <id>http://geneticgrabbag.github.com/</id>
+  <link href="http://blog.epmills.com/blog/categories/food-beverage/atom.xml" rel="self"/>
+  <link href="http://blog.epmills.com/"/>
+  <updated>2012-07-16T22:36:26-04:00</updated>
+  <id>http://blog.epmills.com/</id>
   <author>
     <name><![CDATA[Evan P. Mills]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rachael Ray 365]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/04/12/rachael-ray-365/"/>
+    <link href="http://blog.epmills.com/blog/2006/04/12/rachael-ray-365/"/>
     <updated>2006-04-12T07:53:04-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/04/12/rachael-ray-365</id>
+    <id>http://blog.epmills.com/blog/2006/04/12/rachael-ray-365</id>
     <content type="html"><![CDATA[<p>My wife got this book for Christmas and I gotta say, "it rocks."</p>
 
 <p>We've tried about four of the recipes from this book and each one has been a
@@ -33,9 +33,9 @@ time, here's a link to more information on this really sweet cookbook:</p>
   
   <entry>
     <title type="html"><![CDATA[Fresh Noodle Salad from Trader Joe's]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/04/03/fresh-noodle-salad-from-trader-joe039s/"/>
+    <link href="http://blog.epmills.com/blog/2006/04/03/fresh-noodle-salad-from-trader-joe039s/"/>
     <updated>2006-04-03T12:16:41-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/04/03/fresh-noodle-salad-from-trader-joe039s</id>
+    <id>http://blog.epmills.com/blog/2006/04/03/fresh-noodle-salad-from-trader-joe039s</id>
     <content type="html"><![CDATA[<p>For lunch today I had Yama's <strong>Fresh Noodle Salad with Ginger Cilantro-Lime
 Dressing</strong>.  My lovely wife picked it up for me from
 <a href="http://www.traderjoes.com" title="Trader Joe's">Trader Joe's</a>.</p>

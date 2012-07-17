@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: computing | Evan P. Mills' Ramblings]]></title>
-  <link href="http://geneticgrabbag.github.com/blog/categories/computing/atom.xml" rel="self"/>
-  <link href="http://geneticgrabbag.github.com/"/>
-  <updated>2012-07-16T22:27:18-04:00</updated>
-  <id>http://geneticgrabbag.github.com/</id>
+  <link href="http://blog.epmills.com/blog/categories/computing/atom.xml" rel="self"/>
+  <link href="http://blog.epmills.com/"/>
+  <updated>2012-07-16T22:36:26-04:00</updated>
+  <id>http://blog.epmills.com/</id>
   <author>
     <name><![CDATA[Evan P. Mills]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[LG Env Touch + Mac - Contacts]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
+    <link href="http://blog.epmills.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
     <updated>2009-08-08T09:22:38-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts</id>
+    <id>http://blog.epmills.com/blog/2009/08/08/lg-env-touch--mac---contacts</id>
     <content type="html"><![CDATA[<p>Stumbled upon a really simple but effective way to copy your contacts from
 your <a href="http://www.apple.com/macosx/" title="Apple Mac OS/X">OS/X</a>
 <a href="http://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html" title="Apple Mac Address Book">Address Book</a>
@@ -53,9 +53,9 @@ for creating such a nice utility!</p>
   
   <entry>
     <title type="html"><![CDATA[Source for Cheatsheets]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets/"/>
+    <link href="http://blog.epmills.com/blog/2008/09/09/source-for-cheatsheets/"/>
     <updated>2008-09-09T09:17:03-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets</id>
+    <id>http://blog.epmills.com/blog/2008/09/09/source-for-cheatsheets</id>
     <content type="html"><![CDATA[<p>Check out <a href="http://www.addedbytes.com" title="Added Bytes">Added Bytes</a> and subscribe
 to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
 ]]></content>
@@ -63,9 +63,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Note-to-Self: Java Passion]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion/"/>
+    <link href="http://blog.epmills.com/blog/2008/07/17/note-to-self-java-passion/"/>
     <updated>2008-07-17T12:34:47-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion</id>
+    <id>http://blog.epmills.com/blog/2008/07/17/note-to-self-java-passion</id>
     <content type="html"><![CDATA[<p>Make sure to check out free online Java-related learning at
 <a href="http://www.javapassion.com">http://www.javapassion.com</a>.</p>
 ]]></content>
@@ -73,9 +73,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Solaris Goodness]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness/"/>
+    <link href="http://blog.epmills.com/blog/2008/05/29/solaris-goodness/"/>
     <updated>2008-05-29T13:36:48-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness</id>
+    <id>http://blog.epmills.com/blog/2008/05/29/solaris-goodness</id>
     <content type="html"><![CDATA[<p>Note-to-self: Add <a href="http://prefetch.net/">Prefetch Technologies</a> and
 <a href="http://prefetch.net/blog/">Blog o'Matty</a> to my list of feeds.</p>
 
@@ -85,9 +85,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Merge Made by Octopus]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/05/16/merge-made-by-octopus/"/>
+    <link href="http://blog.epmills.com/blog/2008/05/16/merge-made-by-octopus/"/>
     <updated>2008-05-16T19:58:45-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/05/16/merge-made-by-octopus</id>
+    <id>http://blog.epmills.com/blog/2008/05/16/merge-made-by-octopus</id>
     <content type="html"><![CDATA[<p>I've been coming up to speed on <a href="http://git.or.cz/">Git</a> and swallowing up
 every tutorial and blog entry I can find.</p>
 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Evan P. Mills' Ramblings]]></title>
-  <link href="http://geneticgrabbag.github.com/atom.xml" rel="self"/>
-  <link href="http://geneticgrabbag.github.com/"/>
-  <updated>2012-07-16T22:27:18-04:00</updated>
-  <id>http://geneticgrabbag.github.com/</id>
+  <link href="http://blog.epmills.com/atom.xml" rel="self"/>
+  <link href="http://blog.epmills.com/"/>
+  <updated>2012-07-16T22:36:26-04:00</updated>
+  <id>http://blog.epmills.com/</id>
   <author>
     <name><![CDATA[Evan P. Mills]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Reset Again]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2012/07/08/reset-again/"/>
+    <link href="http://blog.epmills.com/blog/2012/07/08/reset-again/"/>
     <updated>2012-07-08T11:44:00-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2012/07/08/reset-again</id>
+    <id>http://blog.epmills.com/blog/2012/07/08/reset-again</id>
     <content type="html"><![CDATA[<p>Trying once again to reset my blog, this time with
 <a href="http://http://octopress.org/">Octopress</a>.</p>
 
@@ -45,9 +45,9 @@ future.</p>
   
   <entry>
     <title type="html"><![CDATA[Toto and Disqus]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2010/11/07/toto-and-disqus/"/>
+    <link href="http://blog.epmills.com/blog/2010/11/07/toto-and-disqus/"/>
     <updated>2010-11-07T00:00:00-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2010/11/07/toto-and-disqus</id>
+    <id>http://blog.epmills.com/blog/2010/11/07/toto-and-disqus</id>
     <content type="html"><![CDATA[<p>Since I’ve moved from a dynamic blog using
 <a href="http://www.wordpress.org">WordPress</a> to a static one using
 <a href="https://github.com/cloudhead/toto/">toto</a>, I’ve had to outsource my
@@ -75,9 +75,9 @@ set up my blank website.</p>
   
   <entry>
     <title type="html"><![CDATA[Reboot!]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2010/10/22/reboot-slash/"/>
+    <link href="http://blog.epmills.com/blog/2010/10/22/reboot-slash/"/>
     <updated>2010-10-22T00:00:00-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2010/10/22/reboot-slash</id>
+    <id>http://blog.epmills.com/blog/2010/10/22/reboot-slash</id>
     <content type="html"><![CDATA[<p>Well, Wordpress, it’s been a good ride. But after a recent attempt at
 upgrading left my Admin page blank, I’ve decided to pursue greener pastures.</p>
 
@@ -95,9 +95,9 @@ dirty anyway.</p>
   
   <entry>
     <title type="html"><![CDATA[OpenID]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2010/02/17/openid/"/>
+    <link href="http://blog.epmills.com/blog/2010/02/17/openid/"/>
     <updated>2010-02-17T23:46:09-05:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2010/02/17/openid</id>
+    <id>http://blog.epmills.com/blog/2010/02/17/openid</id>
     <content type="html"><![CDATA[<p>OpenID links lurk&#8230;
 <link rel="openid.server" href="http://openid.claimid.com/server" />
 <link rel="openid.delegate" href="http://openid.claimid.com/USERNAME" /></p>
@@ -106,9 +106,9 @@ dirty anyway.</p>
   
   <entry>
     <title type="html"><![CDATA[LG Env Touch + Mac - Contacts]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
+    <link href="http://blog.epmills.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
     <updated>2009-08-08T09:22:38-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch&#8211;mac&#8212;contacts</id>
+    <id>http://blog.epmills.com/blog/2009/08/08/lg-env-touch&#8211;mac&#8212;contacts</id>
     <content type="html"><![CDATA[<p>Stumbled upon a really simple but effective way to copy your contacts from
 your <a href="http://www.apple.com/macosx/" title="Apple Mac OS/X">OS/X</a>
 <a href="http://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html" title="Apple Mac Address Book">Address Book</a>
@@ -131,7 +131,7 @@ away the script runs.  It took only a few seconds to copy around 70 contacts.</p
 as a Smart Group defining only those contacts for whom a phone number is
 available:</p>
 
-<p><img class="center" src="http://geneticgrabbag.github.com/images/2009/08/sendcontacts-smartgroup-screenshot.png" title="Contacts Smart Group" alt="Using a Smart Group to Define Contacts to Send"></p>
+<p><img class="center" src="http://blog.epmills.com/images/2009/08/sendcontacts-smartgroup-screenshot.png" title="Contacts Smart Group" alt="Using a Smart Group to Define Contacts to Send"></p>
 
 <p>Kudos to
 <a href="http://www.apple.com/support/bluetooth/" title="Apple Bluetooth Support">Apple</a>,
@@ -144,9 +144,9 @@ for creating such a nice utility!</p>
   
   <entry>
     <title type="html"><![CDATA[Kwanmu]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2009/07/14/kwanmu/"/>
+    <link href="http://blog.epmills.com/blog/2009/07/14/kwanmu/"/>
     <updated>2009-07-14T03:49:00-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2009/07/14/kwanmu</id>
+    <id>http://blog.epmills.com/blog/2009/07/14/kwanmu</id>
     <content type="html"><![CDATA[<h2>Variable Ippon</h2>
 
 <ul>
@@ -161,24 +161,24 @@ for creating such a nice utility!</p>
   
   <entry>
     <title type="html"><![CDATA[Note-to-Self: It's Not ALL Misery]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/09/18/note-to-self-its-not-all-misery/"/>
+    <link href="http://blog.epmills.com/blog/2008/09/18/note-to-self-its-not-all-misery/"/>
     <updated>2008-09-18T05:33:18-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/09/18/note-to-self-its-not-all-misery</id>
+    <id>http://blog.epmills.com/blog/2008/09/18/note-to-self-its-not-all-misery</id>
     <content type="html"><![CDATA[<p><a href="http://lookatmeshirts.com/">Look At Me Shirts</a> has a
 <a href="http://lookatmeshirts.com/details.php?pid=394">great take</a> on the recent
 destruction here in Cincy.</p>
 
 <p>Maybe when I get my power back, I&#8217;ll be able to order a few.  <em>sigh</em></p>
 
-<p><img class="center" src="http://geneticgrabbag.github.com/images/2008/09/outage.png" title="&#34;Current Outages in Hamilton County&#34;" alt="&#34;Current Outages in Hamilton County&#34;"></p>
+<p><img class="center" src="http://blog.epmills.com/images/2008/09/outage.png" title="&#34;Current Outages in Hamilton County&#34;" alt="&#34;Current Outages in Hamilton County&#34;"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Source for Cheatsheets]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets/"/>
+    <link href="http://blog.epmills.com/blog/2008/09/09/source-for-cheatsheets/"/>
     <updated>2008-09-09T09:17:03-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets</id>
+    <id>http://blog.epmills.com/blog/2008/09/09/source-for-cheatsheets</id>
     <content type="html"><![CDATA[<p>Check out <a href="http://www.addedbytes.com" title="Added Bytes">Added Bytes</a> and subscribe
 to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
 ]]></content>
@@ -186,9 +186,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Note-to-Self: Java Passion]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion/"/>
+    <link href="http://blog.epmills.com/blog/2008/07/17/note-to-self-java-passion/"/>
     <updated>2008-07-17T12:34:47-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion</id>
+    <id>http://blog.epmills.com/blog/2008/07/17/note-to-self-java-passion</id>
     <content type="html"><![CDATA[<p>Make sure to check out free online Java-related learning at
 <a href="http://www.javapassion.com">http://www.javapassion.com</a>.</p>
 ]]></content>
@@ -196,9 +196,9 @@ to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Note-to-Self: Comparison on DVCS Options]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options/"/>
+    <link href="http://blog.epmills.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options/"/>
     <updated>2008-07-09T11:24:21-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options</id>
+    <id>http://blog.epmills.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options</id>
     <content type="html"><![CDATA[<p>Check out
 <a href="http://www.warneronstine.com/blog/articles/2008/07/07/git-mercurial-or-bazaar">this blog entry</a>
 for information on comparing popular distributed version control systems.</p>
@@ -209,9 +209,9 @@ for information on comparing popular distributed version control systems.</p>
   
   <entry>
     <title type="html"><![CDATA[Public Data Sets]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/06/25/public-data-sets/"/>
+    <link href="http://blog.epmills.com/blog/2008/06/25/public-data-sets/"/>
     <updated>2008-06-25T08:36:44-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/06/25/public-data-sets</id>
+    <id>http://blog.epmills.com/blog/2008/06/25/public-data-sets</id>
     <content type="html"><![CDATA[<p>Note to self: check out
 <a href="http://www.readwriteweb.com/archives/where_to_find_open_data_on_the.php">this post</a>
 for public data sets that I could use to develop
@@ -221,18 +221,18 @@ for public data sets that I could use to develop
   
   <entry>
     <title type="html"><![CDATA[Investigate This, Boy]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/06/20/investigate-this-boy/"/>
+    <link href="http://blog.epmills.com/blog/2008/06/20/investigate-this-boy/"/>
     <updated>2008-06-20T13:38:45-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/06/20/investigate-this-boy</id>
+    <id>http://blog.epmills.com/blog/2008/06/20/investigate-this-boy</id>
     <content type="html"><![CDATA[<p>Note to self: check out <a href="http://livepipe.net/">LivePipe</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Solaris Goodness]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness/"/>
+    <link href="http://blog.epmills.com/blog/2008/05/29/solaris-goodness/"/>
     <updated>2008-05-29T13:36:48-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness</id>
+    <id>http://blog.epmills.com/blog/2008/05/29/solaris-goodness</id>
     <content type="html"><![CDATA[<p>Note-to-self: Add <a href="http://prefetch.net/">Prefetch Technologies</a> and
 <a href="http://prefetch.net/blog/">Blog o&#8217;Matty</a> to my list of feeds.</p>
 
@@ -242,9 +242,9 @@ for public data sets that I could use to develop
   
   <entry>
     <title type="html"><![CDATA[Merge Made by Octopus]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/05/16/merge-made-by-octopus/"/>
+    <link href="http://blog.epmills.com/blog/2008/05/16/merge-made-by-octopus/"/>
     <updated>2008-05-16T19:58:45-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/05/16/merge-made-by-octopus</id>
+    <id>http://blog.epmills.com/blog/2008/05/16/merge-made-by-octopus</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been coming up to speed on <a href="http://git.or.cz/">Git</a> and swallowing up
 every tutorial and blog entry I can find.</p>
 
@@ -261,7 +261,7 @@ end I&#8217;ve constructed a little bumper sticker in honor of Git and Jonathan.
 
 <p>Here&#8217;s a preview:</p>
 
-<p><img class="center" src="http://geneticgrabbag.github.com/images/2008/05/merge-made-by-octopus_resized.png" title="&#34;Merge Made by Octopus&#34;" alt="&#34;Merge Made by Octopus&#34;"></p>
+<p><img class="center" src="http://blog.epmills.com/images/2008/05/merge-made-by-octopus_resized.png" title="&#34;Merge Made by Octopus&#34;" alt="&#34;Merge Made by Octopus&#34;"></p>
 
 <p>If you&#8217;re interested in getting a hold of one of the bumper stickers, leave a
 comment.  Sorry it&#8217;s not a t-shirt, Jonathan, but maybe someday&#8230;</p>
@@ -270,9 +270,9 @@ comment.  Sorry it&#8217;s not a t-shirt, Jonathan, but maybe someday&#8230;</p>
   
   <entry>
     <title type="html"><![CDATA[Books on the Cheap]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/05/15/books-on-the-cheap/"/>
+    <link href="http://blog.epmills.com/blog/2008/05/15/books-on-the-cheap/"/>
     <updated>2008-05-15T13:25:50-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/05/15/books-on-the-cheap</id>
+    <id>http://blog.epmills.com/blog/2008/05/15/books-on-the-cheap</id>
     <content type="html"><![CDATA[<p>Note to self: check out <a href="http://www.addall.com">AddAll </a>for good values on
 books, both new and used.</p>
 ]]></content>
@@ -280,9 +280,9 @@ books, both new and used.</p>
   
   <entry>
     <title type="html"><![CDATA[Background Processing in a Spring Web Application]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2008/05/01/background-processing-in-a-spring-web-application/"/>
+    <link href="http://blog.epmills.com/blog/2008/05/01/background-processing-in-a-spring-web-application/"/>
     <updated>2008-05-01T13:46:14-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2008/05/01/background-processing-in-a-spring-web-application</id>
+    <id>http://blog.epmills.com/blog/2008/05/01/background-processing-in-a-spring-web-application</id>
     <content type="html"><![CDATA[<p>From the &#8220;Huh, well that&#8217;s cool&#8221; department&#8230;</p>
 
 <p>Today I figured how to run a background process from within a web application
@@ -310,9 +310,9 @@ for more information.</p>
   
   <entry>
     <title type="html"><![CDATA[New Public Key]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2007/01/11/new-public-key/"/>
+    <link href="http://blog.epmills.com/blog/2007/01/11/new-public-key/"/>
     <updated>2007-01-11T04:42:52-05:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2007/01/11/new-public-key</id>
+    <id>http://blog.epmills.com/blog/2007/01/11/new-public-key</id>
     <content type="html"><![CDATA[<p>I have a newly-minted <a href="http://www.gnupg.org/" title="GNU Privacy Guard">GnuPG</a> key
 that I can use to sign and encrypt emails.</p>
 
@@ -323,9 +323,9 @@ that I can use to sign and encrypt emails.</p>
   
   <entry>
     <title type="html"><![CDATA[Public Key]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2007/01/10/public-key/"/>
+    <link href="http://blog.epmills.com/blog/2007/01/10/public-key/"/>
     <updated>2007-01-10T11:36:46-05:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2007/01/10/public-key</id>
+    <id>http://blog.epmills.com/blog/2007/01/10/public-key</id>
     <content type="html"><![CDATA[<h2>UPDATE!</h2>
 
 <blockquote><p>THIS BLOG ENTRY IS NO LONGER VALID!<br/>THE PUBLIC KEY LISTED BELOW HAS BEEN REVOKED.</p></blockquote>
@@ -432,22 +432,22 @@ suitable for importing into you keyring:</p>
   
   <entry>
     <title type="html"><![CDATA[Fingers, Mid-December, 2006]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/12/13/fingers-mid-december-2006/"/>
+    <link href="http://blog.epmills.com/blog/2006/12/13/fingers-mid-december-2006/"/>
     <updated>2006-12-13T12:11:28-05:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/12/13/fingers-mid-december-2006</id>
+    <id>http://blog.epmills.com/blog/2006/12/13/fingers-mid-december-2006</id>
     <content type="html"><![CDATA[<p>Well, it&#8217;s the middle of December and my fingernails continue to improve.</p>
 
 <!--more-->
 
 
 <p>I&#8217;m happy to report that the
-<a href="http://geneticgrabbag.github.com/blog/2006/08/26/my-fingers-as-of-the-end-of-august/">orphans are doing well</a>
+<a href="http://blog.epmills.com/blog/2006/08/26/my-fingers-as-of-the-end-of-august/">orphans are doing well</a>
 and my middle finger (the one that gets the most use) is nearly back to normal.</p>
 
 <p>The nail is sticking to the bed and, except for more white at the nail&#8217;s edge
 than usual, it&#8217;s back to business.</p>
 
-<p><img class="center" src="http://geneticgrabbag.github.com/images/2006/12/nails-2006-12.jpg" title="&#34;My Fingers - On the Mend&#34;" alt="&#34;My Fingers - On the Mend&#34;"></p>
+<p><img class="center" src="http://blog.epmills.com/images/2006/12/nails-2006-12.jpg" title="&#34;My Fingers - On the Mend&#34;" alt="&#34;My Fingers - On the Mend&#34;"></p>
 
 <p>The ring finger&#8217;s not as well but quite useable.  When the wound first healed
 a small lump of new ping skin grew where the nail was previously.  As the nail
@@ -455,10 +455,10 @@ grew, it tried to do a wheelie up and over this hump, driving the nail skyward.
 Slowly, this hump appears to be driven out by the new nail and my hope is that
 in a year&#8217;s time the entire nail will lie flat.</p>
 
-<p><img class="center" src="http://geneticgrabbag.github.com/images/2006/12/upturn-nail-2006-12.jpg" title="&#34;My Fingers - Upturned Nail&#34;" alt="&#34;My Fingers - Upturned Nail&#34;"></p>
+<p><img class="center" src="http://blog.epmills.com/images/2006/12/upturn-nail-2006-12.jpg" title="&#34;My Fingers - Upturned Nail&#34;" alt="&#34;My Fingers - Upturned Nail&#34;"></p>
 
 <p>Considering the shape of the ring finger
-<a href="http://geneticgrabbag.github.com/blog/2006/08/26/my-fingers-as-of-the-end-of-august/">previously</a>, it&#8217;s in
+<a href="http://blog.epmills.com/blog/2006/08/26/my-fingers-as-of-the-end-of-august/">previously</a>, it&#8217;s in
 remarkably good shape.</p>
 
 <p>Look for an update in March.</p>
@@ -467,9 +467,9 @@ remarkably good shape.</p>
   
   <entry>
     <title type="html"><![CDATA[Christmas Gift Ideas]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/11/29/christmas-gift-ideas/"/>
+    <link href="http://blog.epmills.com/blog/2006/11/29/christmas-gift-ideas/"/>
     <updated>2006-11-29T12:41:37-05:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/11/29/christmas-gift-ideas</id>
+    <id>http://blog.epmills.com/blog/2006/11/29/christmas-gift-ideas</id>
     <content type="html"><![CDATA[<p>I know, I know&#8230;  You&#8217;re all clamoring to get me the coolest gift for
 Christmas.</p>
 

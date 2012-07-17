@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: my-web-sites | Evan P. Mills' Ramblings]]></title>
-  <link href="http://geneticgrabbag.github.com/blog/categories/my-web-sites/atom.xml" rel="self"/>
-  <link href="http://geneticgrabbag.github.com/"/>
-  <updated>2012-07-16T22:27:18-04:00</updated>
-  <id>http://geneticgrabbag.github.com/</id>
+  <link href="http://blog.epmills.com/blog/categories/my-web-sites/atom.xml" rel="self"/>
+  <link href="http://blog.epmills.com/"/>
+  <updated>2012-07-16T22:36:26-04:00</updated>
+  <id>http://blog.epmills.com/</id>
   <author>
     <name><![CDATA[Evan P. Mills]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Gentlemen, Start Your Feedback]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/04/26/gentlemen-start-your-feedback/"/>
+    <link href="http://blog.epmills.com/blog/2006/04/26/gentlemen-start-your-feedback/"/>
     <updated>2006-04-26T11:48:23-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/04/26/gentlemen-start-your-feedback</id>
+    <id>http://blog.epmills.com/blog/2006/04/26/gentlemen-start-your-feedback</id>
     <content type="html"><![CDATA[<p>I've turned on comments after I found comment spam protection in the form of a
 <a href="http://en.wikipedia.org/wiki/Captcha" title="CAPTCHA on Wikipedia">CAPTCHA</a> code.
 Comments are still moderated; however, by typing in the letters and numbers
@@ -30,9 +30,9 @@ site, please, let me know!</p>
   
   <entry>
     <title type="html"><![CDATA[New Theme]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/04/26/new-theme/"/>
+    <link href="http://blog.epmills.com/blog/2006/04/26/new-theme/"/>
     <updated>2006-04-26T11:40:14-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/04/26/new-theme</id>
+    <id>http://blog.epmills.com/blog/2006/04/26/new-theme</id>
     <content type="html"><![CDATA[<p>I've updated the site to use <a href="http://www.kaushalsheth.com/">Kaushal Sheth</a>'s
 sweet <a href="http://www.kaushalsheth.com/blue-horizon-wordpress-theme-with-sidebar-widget-support/" title="Blue Horizon Theme">Blue Horizon</a> theme.</p>
 
@@ -42,9 +42,9 @@ sweet <a href="http://www.kaushalsheth.com/blue-horizon-wordpress-theme-with-sid
   
   <entry>
     <title type="html"><![CDATA[Added My Sites]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/04/06/added-my-sites/"/>
+    <link href="http://blog.epmills.com/blog/2006/04/06/added-my-sites/"/>
     <updated>2006-04-06T08:57:25-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/04/06/added-my-sites</id>
+    <id>http://blog.epmills.com/blog/2006/04/06/added-my-sites</id>
     <content type="html"><![CDATA[<p>Added a new category to the sidebar entitled <strong>My Sites</strong> containing links to sites I've developed.</p>
 
 <!--more-->
@@ -67,9 +67,9 @@ sweet <a href="http://www.kaushalsheth.com/blue-horizon-wordpress-theme-with-sid
   
   <entry>
     <title type="html"><![CDATA[St. Vitale's Day Site Prepared for 2007]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2006/04/03/st-vitales-day-site-prepared-for-2007/"/>
+    <link href="http://blog.epmills.com/blog/2006/04/03/st-vitales-day-site-prepared-for-2007/"/>
     <updated>2006-04-03T10:06:23-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2006/04/03/st-vitales-day-site-prepared-for-2007</id>
+    <id>http://blog.epmills.com/blog/2006/04/03/st-vitales-day-site-prepared-for-2007</id>
     <content type="html"><![CDATA[<p>For members of the
 <a href="http://share.stvitalesday.com">St. Vitale's Day Collaboration Project</a>, I've
 done some pruning and sheering to prep the site for SVD 2007.</p>

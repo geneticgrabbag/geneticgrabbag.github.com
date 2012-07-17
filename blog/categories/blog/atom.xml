@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: blog | Evan P. Mills' Ramblings]]></title>
-  <link href="http://geneticgrabbag.github.com/blog/categories/blog/atom.xml" rel="self"/>
-  <link href="http://geneticgrabbag.github.com/"/>
-  <updated>2012-07-16T22:27:18-04:00</updated>
-  <id>http://geneticgrabbag.github.com/</id>
+  <link href="http://blog.epmills.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://blog.epmills.com/"/>
+  <updated>2012-07-16T22:36:26-04:00</updated>
+  <id>http://blog.epmills.com/</id>
   <author>
     <name><![CDATA[Evan P. Mills]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Reset Again]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2012/07/08/reset-again/"/>
+    <link href="http://blog.epmills.com/blog/2012/07/08/reset-again/"/>
     <updated>2012-07-08T11:44:00-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2012/07/08/reset-again</id>
+    <id>http://blog.epmills.com/blog/2012/07/08/reset-again</id>
     <content type="html"><![CDATA[<p>Trying once again to reset my blog, this time with
 <a href="http://http://octopress.org/">Octopress</a>.</p>
 
@@ -45,9 +45,9 @@ future.</p>
   
   <entry>
     <title type="html"><![CDATA[Toto and Disqus]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2010/11/07/toto-and-disqus/"/>
+    <link href="http://blog.epmills.com/blog/2010/11/07/toto-and-disqus/"/>
     <updated>2010-11-07T00:00:00-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2010/11/07/toto-and-disqus</id>
+    <id>http://blog.epmills.com/blog/2010/11/07/toto-and-disqus</id>
     <content type="html"><![CDATA[<p>Since I’ve moved from a dynamic blog using
 <a href="http://www.wordpress.org">WordPress</a> to a static one using
 <a href="https://github.com/cloudhead/toto/">toto</a>, I’ve had to outsource my
@@ -75,9 +75,9 @@ set up my blank website.</p>
   
   <entry>
     <title type="html"><![CDATA[Reboot!]]></title>
-    <link href="http://geneticgrabbag.github.com/blog/2010/10/22/reboot-slash/"/>
+    <link href="http://blog.epmills.com/blog/2010/10/22/reboot-slash/"/>
     <updated>2010-10-22T00:00:00-04:00</updated>
-    <id>http://geneticgrabbag.github.com/blog/2010/10/22/reboot-slash</id>
+    <id>http://blog.epmills.com/blog/2010/10/22/reboot-slash</id>
     <content type="html"><![CDATA[<p>Well, Wordpress, it’s been a good ride. But after a recent attempt at
 upgrading left my Admin page blank, I’ve decided to pursue greener pastures.</p>
 
