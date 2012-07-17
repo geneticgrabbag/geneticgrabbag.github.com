@@ -1,0 +1,10 @@
+---
+layout: post
+title: "OpenID"
+date: 2010-02-18 04:46:09
+categories:
+- uncategorized
+---
+OpenID links lurk...
+<link rel="openid.server" href="http://openid.claimid.com/server" />
+<link rel="openid.delegate" href="http://openid.claimid.com/USERNAME" />

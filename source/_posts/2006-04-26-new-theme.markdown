@@ -1,0 +1,12 @@
+---
+layout: post
+title: "New Theme"
+date: 2006-04-26 15:40:14
+categories:
+- personal
+- my-web-sites
+---
+I've updated the site to use [Kaushal Sheth](http://www.kaushalsheth.com/)'s
+sweet [Blue Horizon](http://www.kaushalsheth.com/blue-horizon-wordpress-theme-with-sidebar-widget-support/ "Blue Horizon Theme") theme.
+
+Hope you like!
