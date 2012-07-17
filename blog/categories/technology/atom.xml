@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: technology | Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Source for Cheatsheets]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets/"/>
+    <updated>2008-09-09T09:17:03-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets</id>
+    <content type="html"><![CDATA[<p>Check out <a href="http://www.addedbytes.com" title="Added Bytes">Added Bytes</a> and subscribe
+to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Note-to-Self: Java Passion]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion/"/>
+    <updated>2008-07-17T12:34:47-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion</id>
+    <content type="html"><![CDATA[<p>Make sure to check out free online Java-related learning at
+<a href="http://www.javapassion.com">http://www.javapassion.com</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Solaris Goodness]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness/"/>
+    <updated>2008-05-29T13:36:48-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness</id>
+    <content type="html"><![CDATA[<p>Note-to-self: Add <a href="http://prefetch.net/">Prefetch Technologies</a> and
+<a href="http://prefetch.net/blog/">Blog o'Matty</a> to my list of feeds.</p>
+
+<p>Also, check out <a href="http://www.blastwave.org/">Blastwave</a> for OpenSolaris software.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Background Processing in a Spring Web Application]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/05/01/background-processing-in-a-spring-web-application/"/>
+    <updated>2008-05-01T13:46:14-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/05/01/background-processing-in-a-spring-web-application</id>
+    <content type="html"><![CDATA[<p>From the "Huh, well that's cool" department...</p>
+
+<p>Today I figured how to run a background process from within a web application
+that utilizes Spring 2.0 or greater.  At first, I investigated all sorts of
+ways of adding multithreading to a web application before stumbling upon this
+gem.</p>
+
+<p>The key is that Spring provides a class, TaskExecutor, that allows you to run
+a background task by simply creating a class that implements the Runnable
+interface and hooking it up to your application with some simple configuration.</p>
+
+<p>In short, as Spring allows Java web developers to program using POJOs and not
+against a set of interfaces, TaskExecutor and its cohorts allow us to do
+background processing using simple classes instead of forcing us to handle the
+ugly details of multithreading and synchronization ourselves.</p>
+
+<p>Thanks, <a href="http://blog.springsource.com/main/">Spring dudes</a>!  Once again, you
+save the day.</p>
+
+<p>See <a href="http://static.springframework.org/spring/docs/2.0.x/reference/scheduling.html#scheduling-task-executor-usage" title="Chapter 23"> Chapter 23</a>
+of the <a href="http://static.springframework.org/spring/docs/2.0.x/reference/" title="Spring Framework documentation">Spring Framework documentation</a>
+for more information.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Internet Jive]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/25/internet-jive/"/>
+    <updated>2006-04-25T06:57:06-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/25/internet-jive</id>
+    <content type="html"><![CDATA[<p>Confused by the acronyms you see in instant messages or web pages?</p>
+
+<p>I found a great <a href="http://www.2entwine.com/faq/#16" title="Internet Jive">list</a> in the
+FAQ section of the <a href="http://www.2entwine.com/" title="Gush">Gush IM/RSS page</a>.</p>
+
+<p>Now that you've read this, I have the perfect excuse to make my conversations
+even <em>more</em> terse and obscure.</p>
+
+<p>To quote Linnea, "Put it in context!"</p>
+]]></content>
+  </entry>
+  
+</feed>

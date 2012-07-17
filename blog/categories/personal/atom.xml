@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: personal | Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/blog/categories/personal/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LG Env Touch + Mac - Contacts]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
+    <updated>2009-08-08T09:22:38-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts</id>
+    <content type="html"><![CDATA[<p>Stumbled upon a really simple but effective way to copy your contacts from
+your <a href="http://www.apple.com/macosx/" title="Apple Mac OS/X">OS/X</a>
+<a href="http://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html" title="Apple Mac Address Book">Address Book</a>
+onto an <a href="http://en.wikipedia.org/wiki/LG_enV_(VX9900">LG Env Touch</a> "LG Env Touch on Wikipedia").
+The beauty is in how seamlessly the bluetooth operates between the Mac and the
+phone.</p>
+
+<p>The tool is an AppleScript called SendContacts.  You simply create a group in
+Address Book named
+"<a href="http://ccsoftwarefactory.com/SendContacts/" title="SendContacts Home">SendContacts</a>",
+drag the addresses you'd like to copy to the phone into this group and then
+execute the script.  The script opens Address Book if it's not already open
+and copies the addresses in the special group.  My phone is setup to query me
+if an upload is requested so I unlocked my phone, confirmed the upload and
+away the script runs.  It took only a few seconds to copy around 70 contacts.</p>
+
+<p>Nice.</p>
+
+<p>Since a phone is used to, umm, make calls, I created my "SendContacts" group
+as a Smart Group defining only those contacts for whom a phone number is
+available:</p>
+
+<p><img class="center" src="/images/2009/08/sendcontacts-smartgroup-screenshot.png" title="Contacts Smart Group" alt="Using a Smart Group to Define Contacts to Send"></p>
+
+<p>Kudos to
+<a href="http://www.apple.com/support/bluetooth/" title="Apple Bluetooth Support">Apple</a>,
+<a href="http://www.lge.com/products/category/list/mobile%2520phone.jhtml" title="LG Mobile Phones">LG</a>,
+and the <a href="http://www.bluetooth.org/" title="Bluetooth">Bluetooth Consortium</a> for
+making this all so easy and to <a href="http://www.ccsoftwarefactory.com/">C+C Software Factory</a>
+for creating such a nice utility!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kwanmu]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2009/07/14/kwanmu/"/>
+    <updated>2009-07-14T03:49:00-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2009/07/14/kwanmu</id>
+    <content type="html"><![CDATA[<h2>Variable Ippon</h2>
+
+<ul>
+<li><a href="http://files.getdropbox.com/u/484302/Kwanmu/variable-ippon-1-short.mp4">Variable Ippon 1 (Short)</a></li>
+<li><a href="http://files.getdropbox.com/u/484302/Kwanmu/variable-ippon-2-short.mp4">Variable Ippon 2 (Short)</a></li>
+<li><a href="http://files.getdropbox.com/u/484302/Kwanmu/variable-ippon-3-short.mp4">Variable Ippon 3 (Short)</a></li>
+<li><a href="http://files.getdropbox.com/u/484302/Kwanmu/variable-ippon-4-short.mp4">Variable Ippon 4 (Short)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Note-to-Self: It's Not ALL Misery]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/09/18/note-to-self-its-not-all-misery/"/>
+    <updated>2008-09-18T05:33:18-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/09/18/note-to-self-its-not-all-misery</id>
+    <content type="html"><![CDATA[<p><a href="http://lookatmeshirts.com/">Look At Me Shirts</a> has a
+<a href="http://lookatmeshirts.com/details.php?pid=394">great take</a> on the recent
+destruction here in Cincy.</p>
+
+<p>Maybe when I get my power back, I'll be able to order a few.  <em>sigh</em></p>
+
+<p><img class="center" src="/images/2008/09/outage.png" title="&#34;Current Outages in Hamilton County&#34;" alt="&#34;Current Outages in Hamilton County&#34;"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Source for Cheatsheets]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets/"/>
+    <updated>2008-09-09T09:17:03-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets</id>
+    <content type="html"><![CDATA[<p>Check out <a href="http://www.addedbytes.com" title="Added Bytes">Added Bytes</a> and subscribe
+to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Note-to-Self: Comparison on DVCS Options]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options/"/>
+    <updated>2008-07-09T11:24:21-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options</id>
+    <content type="html"><![CDATA[<p>Check out
+<a href="http://www.warneronstine.com/blog/articles/2008/07/07/git-mercurial-or-bazaar">this blog entry</a>
+for information on comparing popular distributed version control systems.</p>
+
+<p>Good links to other related information.</p>
+]]></content>
+  </entry>
+  
+</feed>

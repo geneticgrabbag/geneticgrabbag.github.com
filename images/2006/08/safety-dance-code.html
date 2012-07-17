@@ -1,0 +1,742 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1' />
+	<title></title>
+	<style type='text/css' media='all'>
+pre.csharpcode
+{
+	background: #FFFFFF;
+	color: #000000;;
+	font: 8pt "Courier New";
+}
+.csharp01{
+	color: #007F00;
+}
+.csharp02{
+	color: #007F00;
+}
+.csharp03{
+	color: #3F703F;
+}
+.csharp04{
+	color: #007F7F;
+}
+.csharp05{
+	color: #00007F;
+	font-weight: bold;
+}
+.csharp06{
+	color: #7F007F;
+}
+.csharp07{
+	color: #7F007F;
+}
+.csharp08{
+	color: #804080;
+}
+.csharp09{
+	color: #7F7F00;
+}
+.csharp10{
+	font-weight: bold;
+}
+.csharp12{
+	background: #E0C0E0;
+}
+.csharp13{
+	background: #E0FFE0;
+	color: #007F00;
+}
+.csharp14{
+	background: #E0F0FF;
+	color: #3F7F3F;
+}
+.csharp15{
+	color: #3F703F;
+}
+.csharp16{
+	color: #B00040;
+}
+.csharp32{
+}
+.csharp34{
+	color: #0000EE;
+	font-weight: bold;
+}
+.csharp35{
+	color: #EE0000;
+	font-weight: bold;
+}
+.csharp36{
+	color: #808080;
+}
+	</style>
+</head>
+<body>
+<pre class='csharpcode'><span class='csharp05'>using</span> System<span class='csharp10'>;</span>
+<span class='csharp05'>using</span> System<span class='csharp10'>.</span>Collections<span class='csharp10'>;</span>
+<span class='csharp05'>using</span> System<span class='csharp10'>.</span>Collections<span class='csharp10'>.</span>Specialized<span class='csharp10'>;</span>
+<span class='csharp05'>using</span> System<span class='csharp10'>.</span>Text<span class='csharp10'>;</span>
+<span class='csharp01'>/*
+using Imagination;
+using Inanity;
+using Youth;
+using Relatives.Aunts.Barbara;
+ */</span>
+
+<span class='csharp05'>namespace</span> Dance<span class='csharp10'>.</span>Safety
+<span class='csharp10'>{</span>
+
+    <span class='csharp15'>/// &lt;summary&gt;
+</span>    <span class='csharp15'>///        Classes for simulating the &quot;Safety Dance&quot; song by the
+</span>    <span class='csharp15'>///        group Men Without Hats.
+</span>    <span class='csharp15'>/// &lt;/summary&gt;
+</span>    <span class='csharp15'>/// &lt;remarks&gt;
+</span>    <span class='csharp15'>///     Date            Author          Action
+</span>    <span class='csharp15'>///     =============   =============   =====================
+</span>    <span class='csharp15'>///        2006-Aug-26     Evan P. Mills   Initial release.
+</span>    <span class='csharp15'>///
+</span>    <span class='csharp15'>///        Lyrics courtesy Lyrics(On)Demand:
+</span>    <span class='csharp15'>///            http://www.lyricsondemand.com/onehitwonders/safetydancelyrics.html
+</span>    <span class='csharp15'>/// 
+</span>    <span class='csharp15'>///     This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 2.5
+</span>    <span class='csharp15'>///     License. See http://creativecommons.org/licenses/by-nc-nd/2.5/.
+</span>    <span class='csharp15'>///    &lt;/remarks&gt;
+</span>    <span class='csharp05'>public</span> <span class='csharp05'>class</span> NamespaceDoc
+    <span class='csharp10'>{</span>
+    <span class='csharp10'>}</span>
+
+
+    <span class='csharp15'>/// &lt;summary&gt;
+</span>    <span class='csharp15'>///        Class that processes the song &quot;Safety Dance&quot;.
+</span>    <span class='csharp15'>/// &lt;/summary&gt;
+</span>    <span class='csharp05'>public</span> <span class='csharp05'>class</span> SafetyDance
+    <span class='csharp10'>{</span>
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///     S-s-s-s  A-a-a-a  F-f-f-f T-t-t-t  Y-y-y-y
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>protected</span> <span class='csharp05'>const</span> <span class='csharp05'>string</span> SAFETY_WORD <span class='csharp10'>=</span> <span class='csharp06'>&quot;safety&quot;</span><span class='csharp10'>;</span>
+
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///        A list of locations mentioned in the song.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>protected</span> <span class='csharp05'>enum</span> Location
+        <span class='csharp10'>{</span>
+            Nowhere<span class='csharp10'>,</span>
+            Behind<span class='csharp10'>,</span>
+            OutOfThisWorld<span class='csharp10'>,</span>
+            WhereWeWantTo
+        <span class='csharp10'>}</span>
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///     Relative linear positions.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>public</span> <span class='csharp05'>enum</span> RelativeLinearPosition
+        <span class='csharp10'>{</span>
+            Incomparable<span class='csharp10'>,</span>
+            FarBehind<span class='csharp10'>,</span>
+            CloseBehind<span class='csharp10'>,</span>
+            CloseAhead<span class='csharp10'>,</span>
+            FarAhead
+        <span class='csharp10'>}</span>
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///     How much does a person want to perform an act?
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>public</span> <span class='csharp05'>enum</span> Desire
+        <span class='csharp10'>{</span>
+            GodNo<span class='csharp10'>,</span>
+            NotReally<span class='csharp10'>,</span>
+            TakeItOrLeaveIt<span class='csharp10'>,</span>
+            Somewhat<span class='csharp10'>,</span>
+            YouBet
+        <span class='csharp10'>}</span>
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///        A function or method that simulates behavior.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>public</span> <span class='csharp05'>delegate</span> <span class='csharp05'>void</span> BehaviorDelegate<span class='csharp10'>();</span>
+
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///     Compares distances.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>public</span> <span class='csharp05'>class</span> DistanceComparator
+        <span class='csharp10'>{</span>
+            <span class='csharp05'>static</span> <span class='csharp05'>internal</span> <span class='csharp05'>int</span> THRESH_FAR_BEHIND <span class='csharp10'>=</span> <span class='csharp10'>-</span><span class='csharp04'>10</span><span class='csharp10'>;</span>
+            <span class='csharp05'>static</span> <span class='csharp05'>internal</span> <span class='csharp05'>int</span> THRESH_CLOSE_BEHIND <span class='csharp10'>=</span> <span class='csharp10'>-</span><span class='csharp04'>3</span><span class='csharp10'>;</span>
+            <span class='csharp05'>static</span> <span class='csharp05'>internal</span> <span class='csharp05'>int</span> THRESH_CLOSE_AHEAD <span class='csharp10'>=</span> <span class='csharp10'>+</span><span class='csharp04'>3</span><span class='csharp10'>;</span>
+            <span class='csharp05'>static</span> <span class='csharp05'>internal</span> <span class='csharp05'>int</span> THRESH_FAR_AHEAD <span class='csharp10'>=</span> <span class='csharp10'>+</span><span class='csharp04'>10</span><span class='csharp10'>;</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Returns a relative linear position for a given
+</span>            <span class='csharp15'>///     distance.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>static</span> <span class='csharp05'>public</span> RelativeLinearPosition FromDistance<span class='csharp10'>(</span><span class='csharp05'>int</span> distance<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                <span class='csharp05'>if</span> <span class='csharp10'>(</span>distance <span class='csharp10'>&lt;=</span> THRESH_FAR_BEHIND<span class='csharp10'>)</span>
+                    <span class='csharp05'>return</span> RelativeLinearPosition<span class='csharp10'>.</span>FarBehind<span class='csharp10'>;</span>
+                <span class='csharp05'>else</span> <span class='csharp05'>if</span> <span class='csharp10'>(</span>distance <span class='csharp10'>&lt;=</span> THRESH_CLOSE_BEHIND<span class='csharp10'>)</span>
+                    <span class='csharp05'>return</span> RelativeLinearPosition<span class='csharp10'>.</span>CloseBehind<span class='csharp10'>;</span>
+                <span class='csharp05'>else</span> <span class='csharp05'>if</span> <span class='csharp10'>(</span>distance <span class='csharp10'>&lt;=</span> THRESH_CLOSE_AHEAD<span class='csharp10'>)</span>
+                    <span class='csharp05'>return</span> RelativeLinearPosition<span class='csharp10'>.</span>CloseAhead<span class='csharp10'>;</span>
+                <span class='csharp05'>else</span>
+                    <span class='csharp05'>return</span> RelativeLinearPosition<span class='csharp10'>.</span>FarAhead<span class='csharp10'>;</span>
+            <span class='csharp10'>}</span>
+        <span class='csharp10'>}</span>
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///        A person.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>protected</span> <span class='csharp05'>class</span> Person
+        <span class='csharp10'>{</span>
+            <span class='csharp02'>// Public Properties:
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>string</span> Name <span class='csharp10'>=</span> <span class='csharp05'>null</span><span class='csharp10'>;</span>
+            <span class='csharp05'>private</span> <span class='csharp05'>bool</span> m_canDance <span class='csharp10'>=</span> <span class='csharp05'>true</span><span class='csharp10'>;</span>
+            <span class='csharp05'>private</span> Desire m_danceDesire <span class='csharp10'>=</span> Desire<span class='csharp10'>.</span>TakeItOrLeaveIt<span class='csharp10'>;</span>
+            <span class='csharp05'>private</span> Hashtable m_canGo <span class='csharp10'>=</span> <span class='csharp05'>new</span> Hashtable<span class='csharp10'>();</span>
+            <span class='csharp05'>private</span> Hashtable m_canFind <span class='csharp10'>=</span> <span class='csharp05'>new</span> Hashtable<span class='csharp10'>();</span>
+            <span class='csharp05'>public</span> PersonCollection Friends <span class='csharp10'>=</span> <span class='csharp05'>null</span><span class='csharp10'>;</span>
+
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///        Cannot create a person without a name.
+</span>            <span class='csharp15'>///    &lt;/summary&gt;
+</span>            <span class='csharp05'>private</span> Person<span class='csharp10'>()</span> <span class='csharp10'>{</span> <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///        Creates a new person with the given name.
+</span>            <span class='csharp15'>///    &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> Person<span class='csharp10'>(</span><span class='csharp05'>string</span> name<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                <span class='csharp05'>this</span><span class='csharp10'>.</span>Name <span class='csharp10'>=</span> name<span class='csharp10'>;</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;Created a new person with name {0}.&quot;</span><span class='csharp10'>,</span> name<span class='csharp10'>);</span>
+
+                <span class='csharp05'>string</span> groupName <span class='csharp10'>=</span> <span class='csharp06'>&quot;Friends of &quot;</span> <span class='csharp10'>+</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>Name<span class='csharp10'>;</span>
+                <span class='csharp02'>// this.Friends = new PersonCollection(groupName, groupName);
+</span>            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Returns true if this person can dance.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>bool</span> CanDance
+            <span class='csharp10'>{</span>
+                get <span class='csharp10'>{</span> <span class='csharp05'>return</span> m_canDance<span class='csharp10'>;</span> <span class='csharp10'>}</span>
+                set
+                <span class='csharp10'>{</span>
+                    m_canDance <span class='csharp10'>=</span> value<span class='csharp10'>;</span>
+                    Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} {1} dance.&quot;</span><span class='csharp10'>,</span>
+                        <span class='csharp05'>this</span><span class='csharp10'>.</span>Name<span class='csharp10'>,</span>
+                        value <span class='csharp10'>?</span> <span class='csharp06'>&quot;can now&quot;</span> <span class='csharp10'>:</span> <span class='csharp06'>&quot;can no longer&quot;</span>
+                        <span class='csharp10'>);</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Returns the relative desire this person has to dance.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> Desire DanceDesire
+            <span class='csharp10'>{</span>
+                get <span class='csharp10'>{</span> <span class='csharp05'>return</span> m_danceDesire<span class='csharp10'>;</span> <span class='csharp10'>}</span>
+                set
+                <span class='csharp10'>{</span>
+                    m_danceDesire <span class='csharp10'>=</span> value<span class='csharp10'>;</span>
+                    Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} now views dancing as {1}.&quot;</span><span class='csharp10'>,</span> Name<span class='csharp10'>,</span> value<span class='csharp10'>.</span>ToString<span class='csharp10'>());</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Returns true if this person wants to dance.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>bool</span> WantToDance
+            <span class='csharp10'>{</span>
+                get
+                <span class='csharp10'>{</span>
+                    <span class='csharp05'>bool</span> result <span class='csharp10'>=</span> <span class='csharp10'>((</span><span class='csharp05'>int</span><span class='csharp10'>)</span>m_danceDesire <span class='csharp10'>&gt;</span> <span class='csharp10'>(</span><span class='csharp05'>int</span><span class='csharp10'>)</span>Desire<span class='csharp10'>.</span>NotReally<span class='csharp10'>);</span>
+                    Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} {1} to dance ({2}).&quot;</span><span class='csharp10'>,</span>
+                        <span class='csharp05'>this</span><span class='csharp10'>.</span>Name<span class='csharp10'>,</span>
+                        result <span class='csharp10'>?</span> <span class='csharp06'>&quot;wants&quot;</span> <span class='csharp10'>:</span> <span class='csharp06'>&quot;does not want&quot;</span><span class='csharp10'>,</span>
+                        <span class='csharp05'>this</span><span class='csharp10'>.</span>DanceDesire
+                    <span class='csharp10'>);</span>
+                    <span class='csharp05'>return</span> result<span class='csharp10'>;</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Makes this person dance.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>void</span> Dance<span class='csharp10'>()</span>
+            <span class='csharp10'>{</span>
+                <span class='csharp05'>if</span> <span class='csharp10'>(</span>WantToDance <span class='csharp10'>==</span> <span class='csharp05'>false</span><span class='csharp10'>)</span>
+                <span class='csharp10'>{</span>
+                    Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} doesn't want to dance!&quot;</span><span class='csharp10'>,</span> Name<span class='csharp10'>);</span>
+                    <span class='csharp05'>return</span><span class='csharp10'>;</span>
+                <span class='csharp10'>}</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} views dancing as: {1}&quot;</span><span class='csharp10'>,</span> Name<span class='csharp10'>,</span> DanceDesire<span class='csharp10'>);</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} has danced.&quot;</span><span class='csharp10'>,</span> Name<span class='csharp10'>);</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Sets whether this person can go to the given location.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;location&quot;&gt;
+</span>            <span class='csharp15'>///     The location of interest.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;canGo&quot;&gt;
+</span>            <span class='csharp15'>///     True if this person can go to this location; false, otherwise.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>void</span> SetCanGo<span class='csharp10'>(</span>Location location<span class='csharp10'>,</span> <span class='csharp05'>bool</span> canGo<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                m_canGo<span class='csharp10'>[</span>location<span class='csharp10'>.</span>ToString<span class='csharp10'>()]</span> <span class='csharp10'>=</span> <span class='csharp05'>true</span><span class='csharp10'>;</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} {1} go to {2}.&quot;</span><span class='csharp10'>,</span>
+                    <span class='csharp05'>this</span><span class='csharp10'>.</span>Name<span class='csharp10'>,</span>
+                    canGo <span class='csharp10'>?</span> <span class='csharp06'>&quot;can now&quot;</span> <span class='csharp10'>:</span> <span class='csharp06'>&quot;can lo longer&quot;</span><span class='csharp10'>,</span>
+                    location
+                <span class='csharp10'>);</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Returns whether this person can go to the give location.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;location&quot;&gt;
+</span>            <span class='csharp15'>///     The location of interest.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp15'>/// &lt;returns&gt;
+</span>            <span class='csharp15'>///     True if this person can go to the given location.
+</span>            <span class='csharp15'>/// &lt;/returns&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>bool</span> CanGo<span class='csharp10'>(</span>Location location<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                <span class='csharp05'>return</span> m_canGo<span class='csharp10'>.</span>Contains<span class='csharp10'>(</span>location<span class='csharp10'>.</span>ToString<span class='csharp10'>());</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Sets whether this person can find the given location.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;location&quot;&gt;
+</span>            <span class='csharp15'>///     The location of interest.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;canFind&quot;&gt;
+</span>            <span class='csharp15'>///     True if this person can find this location; false, otherwise.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>void</span> SetCanFind<span class='csharp10'>(</span>Location location<span class='csharp10'>,</span> <span class='csharp05'>bool</span> canFind<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                m_canFind<span class='csharp10'>[</span>location<span class='csharp10'>.</span>ToString<span class='csharp10'>()]</span> <span class='csharp10'>=</span> <span class='csharp05'>true</span><span class='csharp10'>;</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} {1} find {2}.&quot;</span><span class='csharp10'>,</span>
+                    <span class='csharp05'>this</span><span class='csharp10'>.</span>Name<span class='csharp10'>,</span>
+                    canFind <span class='csharp10'>?</span> <span class='csharp06'>&quot;can now&quot;</span> <span class='csharp10'>:</span> <span class='csharp06'>&quot;can lo longer&quot;</span><span class='csharp10'>,</span>
+                    location
+                <span class='csharp10'>);</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Returns whether this person find the give location.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;location&quot;&gt;
+</span>            <span class='csharp15'>///     The location of interest.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp15'>/// &lt;returns&gt;
+</span>            <span class='csharp15'>///     True if this person can find the given location.
+</span>            <span class='csharp15'>/// &lt;/returns&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>bool</span> CanFind<span class='csharp10'>(</span>Location location<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                <span class='csharp05'>return</span> m_canFind<span class='csharp10'>.</span>Contains<span class='csharp10'>(</span>location<span class='csharp10'>.</span>ToString<span class='csharp10'>());</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Makes this person perform an action.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;behavior&quot;&gt;
+</span>            <span class='csharp15'>///     The behavior to perform.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>void</span> Act<span class='csharp10'>(</span>BehaviorDelegate behavior<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                behavior<span class='csharp10'>();</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Makes a person act like he/she comes from
+</span>            <span class='csharp15'>///     out of this world.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>void</span> ActLikeWeComeFromOutOfThisWorld<span class='csharp10'>()</span>
+            <span class='csharp10'>{</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} is acting like earth is not his/her place of origin.&quot;</span><span class='csharp10'>,</span>
+                    <span class='csharp05'>this</span><span class='csharp10'>.</span>Name
+                <span class='csharp10'>);</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Makes the person leave this world behind.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>void</span> LeaveTheRealWorldFarBehind<span class='csharp10'>()</span>
+            <span class='csharp10'>{</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} is leaving the real world far behind.&quot;</span><span class='csharp10'>,</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>Name<span class='csharp10'>);</span>
+            <span class='csharp10'>}</span>
+
+        <span class='csharp10'>}</span>
+
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///        A collection of people (e.g. a group).
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>protected</span> <span class='csharp05'>class</span> PersonCollection <span class='csharp10'>:</span> ArrayList
+        <span class='csharp10'>{</span>
+            <span class='csharp05'>private</span> <span class='csharp05'>string</span> m_nameAsSubject <span class='csharp10'>=</span> <span class='csharp05'>null</span><span class='csharp10'>;</span>
+            <span class='csharp05'>private</span> <span class='csharp05'>string</span> m_nameAsObject <span class='csharp10'>=</span> <span class='csharp05'>null</span><span class='csharp10'>;</span>
+
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Creates a new collection of people.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;nameAsSubject&quot;&gt;
+</span>            <span class='csharp15'>///     How one refers to this group as the subject of
+</span>            <span class='csharp15'>///     an action.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp15'>/// &lt;param name=&quot;nameAsObject&quot;&gt;
+</span>            <span class='csharp15'>///     How one refers to this group as the object of
+</span>            <span class='csharp15'>///     an action.
+</span>            <span class='csharp15'>/// &lt;/param&gt;
+</span>            <span class='csharp05'>public</span> PersonCollection<span class='csharp10'>(</span><span class='csharp05'>string</span> nameAsSubject<span class='csharp10'>,</span> <span class='csharp05'>string</span> nameAsObject<span class='csharp10'>)</span>
+                <span class='csharp10'>:</span> <span class='csharp05'>base</span><span class='csharp10'>()</span>
+            <span class='csharp10'>{</span>
+                m_nameAsSubject <span class='csharp10'>=</span> nameAsSubject<span class='csharp10'>;</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;Created {0}.&quot;</span><span class='csharp10'>,</span> nameAsObject<span class='csharp10'>);</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Gets or sets this group's name as a subject.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>string</span> NameAsSubject
+            <span class='csharp10'>{</span>
+                get <span class='csharp10'>{</span> <span class='csharp05'>return</span> m_nameAsSubject<span class='csharp10'>;</span> <span class='csharp10'>}</span>
+                set <span class='csharp10'>{</span> m_nameAsSubject <span class='csharp10'>=</span> value<span class='csharp10'>;</span> <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Gets or sets this group's name as an object.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>string</span> NameAsObject
+            <span class='csharp10'>{</span>
+                get <span class='csharp10'>{</span> <span class='csharp05'>return</span> m_nameAsObject<span class='csharp10'>;</span> <span class='csharp10'>}</span>
+                set <span class='csharp10'>{</span> m_nameAsObject <span class='csharp10'>=</span> value<span class='csharp10'>;</span> <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Returns true if the group can collectively dance.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp15'>/// &lt;remarks&gt;
+</span>            <span class='csharp15'>///     The group can dance if and only if if all its
+</span>            <span class='csharp15'>///     members can dance.
+</span>            <span class='csharp15'>/// &lt;/remarks&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>bool</span> CanDance
+            <span class='csharp10'>{</span>
+                get
+                <span class='csharp10'>{</span>
+                    Object<span class='csharp10'>[]</span> persons <span class='csharp10'>=</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>ToArray<span class='csharp10'>();</span>
+                    Person person<span class='csharp10'>;</span>
+
+                    <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> persons<span class='csharp10'>.</span>GetLowerBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i <span class='csharp10'>&lt;=</span> persons<span class='csharp10'>.</span>GetUpperBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i<span class='csharp10'>++)</span>
+                    <span class='csharp10'>{</span>
+                        person <span class='csharp10'>=</span> persons<span class='csharp10'>[</span>i<span class='csharp10'>]</span> <span class='csharp05'>as</span> Person<span class='csharp10'>;</span>
+                        <span class='csharp05'>if</span> <span class='csharp10'>(</span>person<span class='csharp10'>.</span>CanDance <span class='csharp10'>==</span> <span class='csharp05'>false</span><span class='csharp10'>)</span>
+                            <span class='csharp05'>return</span> <span class='csharp05'>false</span><span class='csharp10'>;</span>
+                    <span class='csharp10'>}</span>
+
+                    <span class='csharp05'>return</span> <span class='csharp05'>true</span><span class='csharp10'>;</span>
+                <span class='csharp10'>}</span>
+                set
+                <span class='csharp10'>{</span>
+                    Object<span class='csharp10'>[]</span> persons <span class='csharp10'>=</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>ToArray<span class='csharp10'>();</span>
+                    Person person<span class='csharp10'>;</span>
+
+                    <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> persons<span class='csharp10'>.</span>GetLowerBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i <span class='csharp10'>&lt;=</span> persons<span class='csharp10'>.</span>GetUpperBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i<span class='csharp10'>++)</span>
+                    <span class='csharp10'>{</span>
+                        person <span class='csharp10'>=</span> persons<span class='csharp10'>[</span>i<span class='csharp10'>]</span> <span class='csharp05'>as</span> Person<span class='csharp10'>;</span>
+                        person<span class='csharp10'>.</span>CanDance <span class='csharp10'>=</span> value<span class='csharp10'>;</span>
+                    <span class='csharp10'>}</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp15'>/// &lt;summary&gt;
+</span>            <span class='csharp15'>///     Makes the people of this group dance.
+</span>            <span class='csharp15'>/// &lt;/summary&gt;
+</span>            <span class='csharp05'>public</span> <span class='csharp05'>void</span> Dance<span class='csharp10'>()</span>
+            <span class='csharp10'>{</span>
+                Object<span class='csharp10'>[]</span> persons <span class='csharp10'>=</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>ToArray<span class='csharp10'>();</span>
+                Person person<span class='csharp10'>;</span>
+
+                <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> persons<span class='csharp10'>.</span>GetLowerBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i <span class='csharp10'>&lt;=</span> persons<span class='csharp10'>.</span>GetUpperBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i<span class='csharp10'>++)</span>
+                <span class='csharp10'>{</span>
+                    person <span class='csharp10'>=</span> persons<span class='csharp10'>[</span>i<span class='csharp10'>]</span> <span class='csharp05'>as</span> Person<span class='csharp10'>;</span>
+                    person<span class='csharp10'>.</span>Dance<span class='csharp10'>();</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp05'>public</span> <span class='csharp05'>void</span> SetCanGo<span class='csharp10'>(</span>Location location<span class='csharp10'>,</span> <span class='csharp05'>bool</span> canGo<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                Object<span class='csharp10'>[]</span> persons <span class='csharp10'>=</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>ToArray<span class='csharp10'>();</span>
+                Person person<span class='csharp10'>;</span>
+
+                <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> persons<span class='csharp10'>.</span>GetLowerBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i <span class='csharp10'>&lt;=</span> persons<span class='csharp10'>.</span>GetUpperBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i<span class='csharp10'>++)</span>
+                <span class='csharp10'>{</span>
+                    person <span class='csharp10'>=</span> persons<span class='csharp10'>[</span>i<span class='csharp10'>]</span> <span class='csharp05'>as</span> Person<span class='csharp10'>;</span>
+                    person<span class='csharp10'>.</span>SetCanGo<span class='csharp10'>(</span>location<span class='csharp10'>,</span> canGo<span class='csharp10'>);</span>
+                <span class='csharp10'>}</span>              
+            <span class='csharp10'>}</span>
+
+            <span class='csharp05'>public</span> <span class='csharp05'>bool</span> CanFind<span class='csharp10'>(</span>Location location<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                Object<span class='csharp10'>[]</span> persons <span class='csharp10'>=</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>ToArray<span class='csharp10'>();</span>
+                Person person<span class='csharp10'>;</span>
+
+                <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> persons<span class='csharp10'>.</span>GetLowerBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i <span class='csharp10'>&lt;=</span> persons<span class='csharp10'>.</span>GetUpperBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i<span class='csharp10'>++)</span>
+                <span class='csharp10'>{</span>
+                    person <span class='csharp10'>=</span> persons<span class='csharp10'>[</span>i<span class='csharp10'>]</span> <span class='csharp05'>as</span> Person<span class='csharp10'>;</span>
+                    <span class='csharp05'>if</span> <span class='csharp10'>(</span>person<span class='csharp10'>.</span>CanFind<span class='csharp10'>(</span>location<span class='csharp10'>))</span>
+                        <span class='csharp05'>return</span> <span class='csharp05'>true</span><span class='csharp10'>;</span>
+                <span class='csharp10'>}</span>
+
+                <span class='csharp05'>return</span> <span class='csharp05'>false</span><span class='csharp10'>;</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp05'>public</span> <span class='csharp05'>void</span> ActLikeWeComeFromOutOfThisWorld<span class='csharp10'>()</span>
+            <span class='csharp10'>{</span>
+                Object<span class='csharp10'>[]</span> persons <span class='csharp10'>=</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>ToArray<span class='csharp10'>();</span>
+                Person person<span class='csharp10'>;</span>
+
+                <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> persons<span class='csharp10'>.</span>GetLowerBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i <span class='csharp10'>&lt;=</span> persons<span class='csharp10'>.</span>GetUpperBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i<span class='csharp10'>++)</span>
+                <span class='csharp10'>{</span>
+                    person <span class='csharp10'>=</span> persons<span class='csharp10'>[</span>i<span class='csharp10'>]</span> <span class='csharp05'>as</span> Person<span class='csharp10'>;</span>
+                    person<span class='csharp10'>.</span>Act<span class='csharp10'>(</span><span class='csharp05'>new</span> BehaviorDelegate<span class='csharp10'>(</span>person<span class='csharp10'>.</span>ActLikeWeComeFromOutOfThisWorld<span class='csharp10'>));</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp05'>public</span> <span class='csharp05'>void</span> LeaveTheRealWorldFarBehind<span class='csharp10'>()</span>
+            <span class='csharp10'>{</span>
+                Object<span class='csharp10'>[]</span> persons <span class='csharp10'>=</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>ToArray<span class='csharp10'>();</span>
+                Person person<span class='csharp10'>;</span>
+
+                <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> persons<span class='csharp10'>.</span>GetLowerBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i <span class='csharp10'>&lt;=</span> persons<span class='csharp10'>.</span>GetUpperBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i<span class='csharp10'>++)</span>
+                <span class='csharp10'>{</span>
+                    person <span class='csharp10'>=</span> persons<span class='csharp10'>[</span>i<span class='csharp10'>]</span> <span class='csharp05'>as</span> Person<span class='csharp10'>;</span>
+                    person<span class='csharp10'>.</span>LeaveTheRealWorldFarBehind<span class='csharp10'>();</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+        <span class='csharp10'>}</span>
+
+        <span class='csharp05'>protected</span> <span class='csharp05'>class</span> GroupQueue <span class='csharp10'>:</span> Queue
+        <span class='csharp10'>{</span>
+            <span class='csharp05'>const</span> <span class='csharp05'>int</span> BIG_SEPARATION <span class='csharp10'>=</span> <span class='csharp04'>10</span><span class='csharp10'>;</span>
+
+
+            <span class='csharp05'>public</span> GroupQueue<span class='csharp10'>()</span>
+                <span class='csharp10'>:</span> <span class='csharp05'>base</span><span class='csharp10'>()</span>
+            <span class='csharp10'>{</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp05'>public</span> RelativeLinearPosition RelativePosition <span class='csharp10'>(</span>PersonCollection group1<span class='csharp10'>,</span> PersonCollection group2<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                <span class='csharp05'>int</span> pos1 <span class='csharp10'>=</span> GetPosition<span class='csharp10'>(</span>group1<span class='csharp10'>);</span>
+                <span class='csharp05'>int</span> pos2 <span class='csharp10'>=</span> GetPosition<span class='csharp10'>(</span>group2<span class='csharp10'>);</span>
+
+                RelativeLinearPosition result <span class='csharp10'>=</span> DistanceComparator<span class='csharp10'>.</span>FromDistance<span class='csharp10'>(</span>pos1 <span class='csharp10'>-</span> pos2<span class='csharp10'>);</span>
+                Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} and {1} have a separation of {2} spots ({3}).&quot;</span><span class='csharp10'>,</span>
+                    group1<span class='csharp10'>.</span>NameAsSubject<span class='csharp10'>,</span>
+                    group2<span class='csharp10'>.</span>NameAsSubject<span class='csharp10'>.</span>ToLower<span class='csharp10'>(),</span>
+                    <span class='csharp10'>(</span>pos1 <span class='csharp10'>-</span> pos2<span class='csharp10'>),</span>
+                    result
+                <span class='csharp10'>);</span>
+
+                <span class='csharp05'>return</span> result<span class='csharp10'>;</span>
+            <span class='csharp10'>}</span>
+
+            <span class='csharp05'>protected</span> <span class='csharp05'>int</span> GetPosition<span class='csharp10'>(</span>PersonCollection group<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                Object<span class='csharp10'>[]</span> groups <span class='csharp10'>=</span> <span class='csharp05'>this</span><span class='csharp10'>.</span>ToArray<span class='csharp10'>();</span>
+                PersonCollection curGroup<span class='csharp10'>;</span>
+
+                <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> groups<span class='csharp10'>.</span>GetLowerBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i <span class='csharp10'>&lt;=</span> groups<span class='csharp10'>.</span>GetUpperBound<span class='csharp10'>(</span><span class='csharp04'>0</span><span class='csharp10'>);</span> i<span class='csharp10'>++)</span>
+                <span class='csharp10'>{</span>
+                    curGroup <span class='csharp10'>=</span> groups<span class='csharp10'>[</span>i<span class='csharp10'>]</span> <span class='csharp05'>as</span> PersonCollection<span class='csharp10'>;</span>
+                    <span class='csharp05'>if</span> <span class='csharp10'>(</span>curGroup <span class='csharp10'>==</span> group<span class='csharp10'>)</span>
+                        <span class='csharp05'>return</span> i<span class='csharp10'>;</span>
+                <span class='csharp10'>}</span>
+
+                <span class='csharp05'>return</span> <span class='csharp10'>-</span><span class='csharp04'>1</span><span class='csharp10'>;</span>
+            <span class='csharp10'>}</span>
+
+        <span class='csharp10'>}</span>
+
+        <span class='csharp05'>static</span> <span class='csharp05'>private</span> PersonCollection us<span class='csharp10'>,</span> them<span class='csharp10'>;</span>
+        <span class='csharp05'>static</span> <span class='csharp05'>private</span> Person you<span class='csharp10'>,</span> me<span class='csharp10'>;</span>
+        <span class='csharp05'>static</span> <span class='csharp05'>private</span> GroupQueue separation<span class='csharp10'>;</span>
+       
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///        Initializes people and groups referred to in the song.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>static</span> <span class='csharp05'>public</span> <span class='csharp05'>void</span> PopulateGroups<span class='csharp10'>()</span>
+        <span class='csharp10'>{</span>
+            me <span class='csharp10'>=</span> <span class='csharp05'>new</span> Person<span class='csharp10'>(</span><span class='csharp06'>&quot;Evan&quot;</span><span class='csharp10'>);</span>
+
+            us <span class='csharp10'>=</span> <span class='csharp05'>new</span> PersonCollection<span class='csharp10'>(</span><span class='csharp06'>&quot;We&quot;</span><span class='csharp10'>,</span> <span class='csharp06'>&quot;us&quot;</span><span class='csharp10'>);</span>
+            us<span class='csharp10'>.</span>Add<span class='csharp10'>(</span>me<span class='csharp10'>);</span>
+            us<span class='csharp10'>.</span>Add<span class='csharp10'>(</span><span class='csharp05'>new</span> Person<span class='csharp10'>(</span><span class='csharp06'>&quot;J.B.&quot;</span><span class='csharp10'>));</span>
+            us<span class='csharp10'>.</span>Add<span class='csharp10'>(</span><span class='csharp05'>new</span> Person<span class='csharp10'>(</span><span class='csharp06'>&quot;JoeDoc&quot;</span><span class='csharp10'>));</span>
+            us<span class='csharp10'>.</span>Add<span class='csharp10'>(</span><span class='csharp05'>new</span> Person<span class='csharp10'>(</span><span class='csharp06'>&quot;Clio&quot;</span><span class='csharp10'>));</span>
+            me<span class='csharp10'>.</span>Friends <span class='csharp10'>=</span> us<span class='csharp10'>;</span>
+
+            them <span class='csharp10'>=</span> <span class='csharp05'>new</span> PersonCollection<span class='csharp10'>(</span><span class='csharp06'>&quot;They&quot;</span><span class='csharp10'>,</span> <span class='csharp06'>&quot;them&quot;</span><span class='csharp10'>);</span>
+            them<span class='csharp10'>.</span>Add<span class='csharp10'>(</span><span class='csharp05'>new</span> Person<span class='csharp10'>(</span><span class='csharp06'>&quot;Shrub&quot;</span><span class='csharp10'>));</span>
+            them<span class='csharp10'>.</span>Add<span class='csharp10'>(</span><span class='csharp05'>new</span> Person<span class='csharp10'>(</span><span class='csharp06'>&quot;Rummy&quot;</span><span class='csharp10'>));</span>
+            them<span class='csharp10'>.</span>Add<span class='csharp10'>(</span><span class='csharp05'>new</span> Person<span class='csharp10'>(</span><span class='csharp06'>&quot;Cheney&quot;</span><span class='csharp10'>));</span>
+
+            you <span class='csharp10'>=</span> <span class='csharp05'>new</span> Person<span class='csharp10'>(</span><span class='csharp06'>&quot;Karl Rove&quot;</span><span class='csharp10'>);</span>
+            you<span class='csharp10'>.</span>Friends <span class='csharp10'>=</span> them<span class='csharp10'>;</span>
+
+            separation <span class='csharp10'>=</span> <span class='csharp05'>new</span> GroupQueue<span class='csharp10'>();</span>
+            separation<span class='csharp10'>.</span>Enqueue<span class='csharp10'>(</span>us<span class='csharp10'>);</span>
+
+            <span class='csharp05'>string</span> name<span class='csharp10'>;</span>
+            <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> i <span class='csharp10'>=</span> <span class='csharp04'>1</span><span class='csharp10'>;</span> i <span class='csharp10'>&lt;</span> DistanceComparator<span class='csharp10'>.</span>THRESH_FAR_AHEAD<span class='csharp10'>;</span> i<span class='csharp10'>++)</span>
+            <span class='csharp10'>{</span>
+                name <span class='csharp10'>=</span> <span class='csharp06'>&quot;Separation Group #&quot;</span> <span class='csharp10'>+</span> i<span class='csharp10'>;</span>
+                separation<span class='csharp10'>.</span>Enqueue<span class='csharp10'>(</span><span class='csharp05'>new</span> PersonCollection<span class='csharp10'>(</span>name<span class='csharp10'>,</span> name<span class='csharp10'>));</span>
+            <span class='csharp10'>}</span>
+            separation<span class='csharp10'>.</span>Enqueue<span class='csharp10'>(</span>them<span class='csharp10'>);</span>
+        <span class='csharp10'>}</span>
+
+        <span class='csharp05'>static</span> <span class='csharp05'>protected</span> <span class='csharp05'>void</span> Log<span class='csharp10'>(</span><span class='csharp05'>string</span> message<span class='csharp10'>)</span>
+        <span class='csharp10'>{</span>
+<span class='csharp09'>#if LOG_ENABLED
+</span>            System<span class='csharp10'>.</span>Console<span class='csharp10'>.</span>Error<span class='csharp10'>.</span>WriteLine<span class='csharp10'>(</span><span class='csharp06'>&quot;&gt;&gt; &quot;</span> <span class='csharp10'>+</span> message<span class='csharp10'>);</span>
+<span class='csharp09'>#endif
+</span>        <span class='csharp10'>}</span>
+
+        <span class='csharp05'>static</span> <span class='csharp05'>protected</span> <span class='csharp05'>void</span> Log<span class='csharp10'>(</span><span class='csharp05'>string</span> messageTemplate<span class='csharp10'>,</span> <span class='csharp05'>params</span> <span class='csharp05'>object</span><span class='csharp10'>[]</span> parms<span class='csharp10'>)</span>
+        <span class='csharp10'>{</span>
+            Log<span class='csharp10'>(</span><span class='csharp05'>string</span><span class='csharp10'>.</span>Format<span class='csharp10'>(</span>messageTemplate<span class='csharp10'>,</span> parms<span class='csharp10'>));</span>
+        <span class='csharp10'>}</span>
+
+        <span class='csharp05'>static</span> <span class='csharp05'>protected</span> <span class='csharp05'>void</span> Output<span class='csharp10'>(</span><span class='csharp05'>string</span> message<span class='csharp10'>)</span>
+        <span class='csharp10'>{</span>
+            System<span class='csharp10'>.</span>Console<span class='csharp10'>.</span>WriteLine<span class='csharp10'>(</span>message<span class='csharp10'>);</span>
+        <span class='csharp10'>}</span>
+
+        <span class='csharp05'>static</span> <span class='csharp05'>protected</span> <span class='csharp05'>void</span> Output<span class='csharp10'>(</span><span class='csharp05'>string</span> messageTemplate<span class='csharp10'>,</span> <span class='csharp05'>params</span> <span class='csharp05'>object</span><span class='csharp10'>[]</span> parms<span class='csharp10'>)</span>
+        <span class='csharp10'>{</span>
+            Output<span class='csharp10'>(</span><span class='csharp05'>string</span><span class='csharp10'>.</span>Format<span class='csharp10'>(</span>messageTemplate<span class='csharp10'>,</span> parms<span class='csharp10'>));</span>
+        <span class='csharp10'>}</span>
+
+
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///     Entry point for console application.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>static</span> <span class='csharp05'>public</span> <span class='csharp05'>void</span> Main<span class='csharp10'>()</span>
+        <span class='csharp10'>{</span>
+            Console<span class='csharp10'>.</span>WriteLine<span class='csharp10'>(</span><span class='csharp06'>&quot;=================&quot;</span><span class='csharp10'>);</span>
+            Console<span class='csharp10'>.</span>WriteLine<span class='csharp10'>(</span><span class='csharp06'>&quot;Men Without Hats&quot;</span><span class='csharp10'>);</span>
+            Console<span class='csharp10'>.</span>WriteLine<span class='csharp10'>(</span><span class='csharp06'>&quot; Safety Dance!&quot;</span><span class='csharp10'>);</span>
+            Console<span class='csharp10'>.</span>WriteLine<span class='csharp10'>(</span><span class='csharp06'>&quot;----------------&quot;</span><span class='csharp10'>);</span>
+            Console<span class='csharp10'>.</span>WriteLine<span class='csharp10'>();</span>
+
+            PopulateGroups<span class='csharp10'>();</span>
+            Intro<span class='csharp10'>();</span>
+            StanzaOne<span class='csharp10'>();</span>
+
+            Console<span class='csharp10'>.</span>ReadLine<span class='csharp10'>();</span>
+        <span class='csharp10'>}</span>
+
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///        Processes the introduction of the song.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>static</span> <span class='csharp05'>private</span> <span class='csharp05'>void</span> Intro<span class='csharp10'>()</span>
+        <span class='csharp10'>{</span>
+            <span class='csharp05'>const</span> <span class='csharp05'>int</span> REPEAT_COUNT <span class='csharp10'>=</span> <span class='csharp04'>4</span><span class='csharp10'>;</span>
+
+            StringBuilder sb <span class='csharp10'>=</span> <span class='csharp05'>new</span> StringBuilder<span class='csharp10'>();</span>
+            <span class='csharp05'>string</span> ch<span class='csharp10'>;</span>
+
+            <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> iw <span class='csharp10'>=</span> <span class='csharp04'>0</span><span class='csharp10'>;</span> iw <span class='csharp10'>&lt;</span> SAFETY_WORD<span class='csharp10'>.</span>Length<span class='csharp10'>;</span> iw<span class='csharp10'>++)</span>
+            <span class='csharp10'>{</span>
+                <span class='csharp05'>if</span> <span class='csharp10'>(</span>iw <span class='csharp10'>&gt;</span> <span class='csharp04'>0</span><span class='csharp10'>)</span>
+                    sb<span class='csharp10'>.</span>Append<span class='csharp10'>(</span><span class='csharp06'>&quot; &quot;</span><span class='csharp10'>);</span>
+
+                ch <span class='csharp10'>=</span> SAFETY_WORD<span class='csharp10'>.</span>Substring<span class='csharp10'>(</span>iw<span class='csharp10'>,</span> <span class='csharp04'>1</span><span class='csharp10'>);</span>
+                <span class='csharp05'>for</span> <span class='csharp10'>(</span><span class='csharp05'>int</span> ir <span class='csharp10'>=</span> <span class='csharp04'>1</span><span class='csharp10'>;</span> ir <span class='csharp10'>&lt;=</span> REPEAT_COUNT<span class='csharp10'>;</span> ir<span class='csharp10'>++)</span>
+                <span class='csharp10'>{</span>
+                    sb<span class='csharp10'>.</span>Append<span class='csharp10'>((</span>ir <span class='csharp10'>&gt;</span> <span class='csharp04'>1</span><span class='csharp10'>)</span> <span class='csharp10'>?</span> ch <span class='csharp10'>:</span> ch<span class='csharp10'>.</span>ToUpper<span class='csharp10'>());</span>
+                    <span class='csharp05'>if</span> <span class='csharp10'>(</span>ir <span class='csharp10'>&lt;</span> REPEAT_COUNT<span class='csharp10'>)</span>
+                        sb<span class='csharp10'>.</span>Append<span class='csharp10'>(</span><span class='csharp06'>&quot;-&quot;</span><span class='csharp10'>);</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            Output<span class='csharp10'>(</span>sb<span class='csharp10'>.</span>ToString<span class='csharp10'>());</span>
+        <span class='csharp10'>}</span>
+
+
+        <span class='csharp15'>/// &lt;summary&gt;
+</span>        <span class='csharp15'>///        Processes the first stanza of the song.
+</span>        <span class='csharp15'>/// &lt;/summary&gt;
+</span>        <span class='csharp05'>static</span> <span class='csharp05'>private</span> <span class='csharp05'>void</span> StanzaOne<span class='csharp10'>()</span>
+        <span class='csharp10'>{</span>
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;We can dance if we want to&quot;</span><span class='csharp10'>);</span>
+            us<span class='csharp10'>.</span>CanDance <span class='csharp10'>=</span> <span class='csharp05'>true</span><span class='csharp10'>;</span>
+
+            Log<span class='csharp10'>(</span><span class='csharp06'>&quot;Can we leave them far behind: {0}&quot;</span><span class='csharp10'>,</span> separation<span class='csharp10'>.</span>RelativePosition<span class='csharp10'>(</span>us<span class='csharp10'>,</span> them<span class='csharp10'>)</span> <span class='csharp10'>==</span> RelativeLinearPosition<span class='csharp10'>.</span>FarBehind<span class='csharp10'>);</span>
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;We can leave your friends behind&quot;</span><span class='csharp10'>);</span>
+
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;'Cause your friends don't dance...&quot;</span><span class='csharp10'>);</span>
+            them<span class='csharp10'>.</span>CanDance <span class='csharp10'>=</span> <span class='csharp05'>false</span><span class='csharp10'>;</span>
+
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;...and if they don't dance&quot;</span><span class='csharp10'>);</span>
+
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;Well they're no friends of mine&quot;</span><span class='csharp10'>);</span>
+            Log<span class='csharp10'>(</span><span class='csharp06'>&quot;Removing those friends of {0} who cannot dance&quot;</span><span class='csharp10'>,</span> me<span class='csharp10'>.</span>Name<span class='csharp10'>);</span>
+            <span class='csharp05'>foreach</span> <span class='csharp10'>(</span>Person person <span class='csharp05'>in</span> them<span class='csharp10'>)</span>
+            <span class='csharp10'>{</span>
+                <span class='csharp05'>if</span> <span class='csharp10'>(</span>person<span class='csharp10'>.</span>CanDance <span class='csharp10'>==</span> <span class='csharp05'>false</span><span class='csharp10'>)</span>
+                <span class='csharp10'>{</span>
+                    <span class='csharp05'>if</span> <span class='csharp10'>(</span>me<span class='csharp10'>.</span>Friends<span class='csharp10'>.</span>Contains<span class='csharp10'>(</span>person<span class='csharp10'>))</span>
+                    <span class='csharp10'>{</span>
+                        me<span class='csharp10'>.</span>Friends<span class='csharp10'>.</span>Remove<span class='csharp10'>(</span>person<span class='csharp10'>);</span>
+                        Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} is no longer a friend of {1}.&quot;</span><span class='csharp10'>,</span>
+                            person<span class='csharp10'>.</span>Name<span class='csharp10'>,</span>
+                            me<span class='csharp10'>.</span>Name
+                        <span class='csharp10'>);</span>
+                    <span class='csharp10'>}</span>
+                    <span class='csharp05'>else</span>
+                    <span class='csharp10'>{</span>
+                        Log<span class='csharp10'>(</span><span class='csharp06'>&quot;{0} is not a friend of {1}; no need to remove.&quot;</span><span class='csharp10'>,</span>
+                            person<span class='csharp10'>.</span>Name<span class='csharp10'>,</span>
+                            me<span class='csharp10'>.</span>Name
+                        <span class='csharp10'>);</span>
+                    <span class='csharp10'>}</span>
+                <span class='csharp10'>}</span>
+            <span class='csharp10'>}</span>
+
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;I say, we can go where we want to&quot;</span><span class='csharp10'>);</span>
+            us<span class='csharp10'>.</span>SetCanGo<span class='csharp10'>(</span>Location<span class='csharp10'>.</span>WhereWeWantTo<span class='csharp10'>,</span> <span class='csharp05'>true</span><span class='csharp10'>);</span>
+
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;A place where they will never find&quot;</span><span class='csharp10'>);</span>
+            <span class='csharp05'>if</span> <span class='csharp10'>(</span>them<span class='csharp10'>.</span>CanFind<span class='csharp10'>(</span>Location<span class='csharp10'>.</span>WhereWeWantTo<span class='csharp10'>))</span>
+                <span class='csharp05'>throw</span> <span class='csharp05'>new</span> ApplicationException<span class='csharp10'>(</span><span class='csharp06'>&quot;They CAN find us!&quot;</span><span class='csharp10'>);</span>
+            Log<span class='csharp10'>(</span><span class='csharp06'>&quot;They cannot find us.&quot;</span><span class='csharp10'>);</span>
+
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;And we can act like we come from out of this world&quot;</span><span class='csharp10'>);</span>
+            us<span class='csharp10'>.</span>ActLikeWeComeFromOutOfThisWorld<span class='csharp10'>();</span>
+
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;Leave the real one far behind.&quot;</span><span class='csharp10'>);</span>
+            us<span class='csharp10'>.</span>LeaveTheRealWorldFarBehind<span class='csharp10'>();</span>
+
+            Output<span class='csharp10'>(</span><span class='csharp06'>&quot;And we can dance.&quot;</span><span class='csharp10'>);</span>
+            us<span class='csharp10'>.</span>CanDance <span class='csharp10'>=</span> <span class='csharp05'>true</span><span class='csharp10'>;</span>
+        <span class='csharp10'>}</span>
+    <span class='csharp10'>}</span>
+<span class='csharp10'>}</span>
+</pre>
+</body>
+</html>

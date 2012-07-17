@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: uncategorized | Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/blog/categories/uncategorized/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OpenID]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2010/02/17/openid/"/>
+    <updated>2010-02-17T23:46:09-05:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2010/02/17/openid</id>
+    <content type="html"><![CDATA[<p>OpenID links lurk...
+<link rel="openid.server" href="http://openid.claimid.com/server" />
+<link rel="openid.delegate" href="http://openid.claimid.com/USERNAME" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[About epmills.com]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/26/about-epmills-com/"/>
+    <updated>2006-04-26T09:51:51-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/26/about-epmills-com</id>
+    <content type="html"><![CDATA[<p>This site's an attempt to categorize those billions of bits bombarding me
+every day into some semblance of order.</p>
+]]></content>
+  </entry>
+  
+</feed>

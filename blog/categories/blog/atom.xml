@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blog | Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Reset Again]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2012/07/08/reset-again/"/>
+    <updated>2012-07-08T11:44:00-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2012/07/08/reset-again</id>
+    <content type="html"><![CDATA[<p>Trying once again to reset my blog, this time with
+<a href="http://http://octopress.org/">Octopress</a>.</p>
+
+<p>After some initial search for ways to convert my old
+<a href="http://www.wordpress.org">WordPress</a> blog data, I ended up writing my own
+conversion script using <a href="http://www.mysql.org">MySQL</a> and
+<a href="http://nodejs.org">Node.JS</a>.  In hindsight, I probably should have used
+<a href="https://github.com/thomasf">thomasf's</a>
+<a href="https://github.com/thomasf/exitwp">exitwp</a> script but I didn't discover it in
+time.</p>
+
+<p>But because I'd dedicated some time to my script,
+<a href="https://github.com/geneticgrabbag/wp2octopress">wp2octopress</a>, I decided to
+put it up on <a href="http://www.github.com">github</a> so I would at least have a record
+of my efforts and, if it helps someone else, all the merrier.</p>
+
+<p>In any case, this blog now contains the bulk of my posts from the past.  I
+didn't post the old comments from WordPress but there's some good information
+and questions from some nice folks, so I may look at porting them over in the
+future.</p>
+
+<p>Thanks!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Toto and Disqus]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2010/11/07/toto-and-disqus/"/>
+    <updated>2010-11-07T00:00:00-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2010/11/07/toto-and-disqus</id>
+    <content type="html"><![CDATA[<p>Since I’ve moved from a dynamic blog using
+<a href="http://www.wordpress.org">WordPress</a> to a static one using
+<a href="https://github.com/cloudhead/toto/">toto</a>, I’ve had to outsource my
+commenting system and have decided to try <a href="http://www.disqus.com">Disqus</a>.</p>
+
+<p>I use <a href="http://www.webbynode.com">Webbynode</a> for my hosting (love them) and
+they have a great
+<a href="http://guides.webbynode.com/articles/rapidapps/toto.html">guide</a>
+to setting up and deploying <a href="https://github.com/cloudhead/toto/">toto</a>.</p>
+
+<p>The first step I took was creating an account with
+<a href="http://www.disqus.com">Disqus</a> and
+<a href="http://disqus.com/admin/register/">registering</a>
+<a href="http://epmills.com">epmills.com</a> with them. After you
+<a href="http://disqus.com/admin/register/">register</a> your site,
+<a href="http://www.disqus.com">Disqus</a> provides you with two Javascript scripts to
+add to your site. You also need to add a <code>div</code> as a placeholder
+where <a href="http://www.disqus.com">Disqus</a> will insert any comments for the page
+along with a text area to enter a new comment.</p>
+
+<p>I cloned <a href="https://github.com/cloudhead/dorothy">Dorothy</a> to initially
+set up my blank website.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reboot!]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2010/10/22/reboot-slash/"/>
+    <updated>2010-10-22T00:00:00-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2010/10/22/reboot-slash</id>
+    <content type="html"><![CDATA[<p>Well, Wordpress, it’s been a good ride. But after a recent attempt at
+upgrading left my Admin page blank, I’ve decided to pursue greener pastures.</p>
+
+<p>Being a geek at heart, I’m scoping out blogging software that’s both simple
+and configurable.</p>
+
+<p>Sweetheart Of The Day: <a href="https://github.com/cloudhead/toto/">toto</a>.</p>
+
+<p>Humble beginnings to a reboot of my blog, but it’s time to get my hands a bit
+dirty anyway.</p>
+
+<p>Stay tuned...</p>
+]]></content>
+  </entry>
+  
+</feed>

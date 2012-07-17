@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blogroll | Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/blog/categories/blogroll/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[About epmills.com]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/26/about-epmills-com/"/>
+    <updated>2006-04-26T09:51:51-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/26/about-epmills-com</id>
+    <content type="html"><![CDATA[<p>This site's an attempt to categorize those billions of bits bombarding me
+every day into some semblance of order.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Keiko Diary for 2006-Apr-04]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/05/keiko-diary-for-2006-apr-04/"/>
+    <updated>2006-04-05T11:26:23-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/05/keiko-diary-for-2006-apr-04</id>
+    <content type="html"><![CDATA[<p>This is the first of my keiko (karate practice) diary entries.</p>
+
+<!--more-->
+
+
+<p>Sensei took advantage of the fact that no little kids were there to
+concentrate on training and conditioning.  <em>Everyone</em> did stairstepped
+pushups, kicking line drills and practicing moving into an oblique position by
+taking a fighting stance, moving the back foot up (without raising the head)
+and moving the other foot back so that the body is on a 45&deg; angle.</p>
+
+<p>We worked on basic fighting technique, specifically using the swap-jump to
+better position ourselves for a counterattack.</p>
+
+<ol>
+<li>Attacker and defender in closed fighting stances.</li>
+<li>Attacker reverse punches to chest.</li>
+<li>Defender perries punch downward while sliding back (ala ipon kumite #3).</li>
+<li>Attacker uses swap-jump to position obliquely while raising an easy middle
+defend.  Attacker then steps in, lowers and attacks ribs.</li>
+</ol>
+
+
+<p>We also studied a few terms:</p>
+
+<dl>
+    <dt>Atemi</dt>
+    <dd>Vital strike.  "Soft target" one can hit to down an attacker</dd>
+    <dt>Kime</dt>
+    <dd>Focus</dd>
+    <dt>Mai-ai</dt>
+    <dd>Interval.  Maintaining the proper distance with an opponent</dd>
+    <dt>Zanshin</dt>
+    <dd>
+        Remaining mind;  After finishing an action, keeping concentration for
+        what might happen next
+    </dd>
+</dl>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Karate Terms]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/05/karate-terms/"/>
+    <updated>2006-04-05T08:46:55-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/05/karate-terms</id>
+    <content type="html"><![CDATA[<p>Found a website that contains a glossary of karate-related terms:</p>
+
+<ul>
+<li><a href="http://www.koryukanusa.bizland.com/training_glossary.to.html">http://www.koryukanusa.bizland.com/training_glossary.to.html</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kwanmu!]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/05/kwanmu/"/>
+    <updated>2006-04-05T08:41:16-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/05/kwanmu</id>
+    <content type="html"><![CDATA[<p>My son and I have been taking karate lessons weekly for about three and half
+years now.  And every week there are new techniques to be learned and
+previously-taught techniques to be relearned or improved.</p>
+
+<p>My thought is to use this blog to capture some of these ideas so that I can
+efer back to them later.  Posts will be filed under the
+<a href="http://epmills.com/category/personal/kwanmukan/" title="Kwanmukan Category">Kwanmukan </a>
+category.</p>
+
+<p>Kwanmu, by the way, is Japanese for "realization of the essential."</p>
+]]></content>
+  </entry>
+  
+</feed>

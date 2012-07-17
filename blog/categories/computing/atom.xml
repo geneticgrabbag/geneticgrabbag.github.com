@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: computing | Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/blog/categories/computing/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LG Env Touch + Mac - Contacts]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
+    <updated>2009-08-08T09:22:38-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts</id>
+    <content type="html"><![CDATA[<p>Stumbled upon a really simple but effective way to copy your contacts from
+your <a href="http://www.apple.com/macosx/" title="Apple Mac OS/X">OS/X</a>
+<a href="http://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html" title="Apple Mac Address Book">Address Book</a>
+onto an <a href="http://en.wikipedia.org/wiki/LG_enV_(VX9900">LG Env Touch</a> "LG Env Touch on Wikipedia").
+The beauty is in how seamlessly the bluetooth operates between the Mac and the
+phone.</p>
+
+<p>The tool is an AppleScript called SendContacts.  You simply create a group in
+Address Book named
+"<a href="http://ccsoftwarefactory.com/SendContacts/" title="SendContacts Home">SendContacts</a>",
+drag the addresses you'd like to copy to the phone into this group and then
+execute the script.  The script opens Address Book if it's not already open
+and copies the addresses in the special group.  My phone is setup to query me
+if an upload is requested so I unlocked my phone, confirmed the upload and
+away the script runs.  It took only a few seconds to copy around 70 contacts.</p>
+
+<p>Nice.</p>
+
+<p>Since a phone is used to, umm, make calls, I created my "SendContacts" group
+as a Smart Group defining only those contacts for whom a phone number is
+available:</p>
+
+<p><img class="center" src="/images/2009/08/sendcontacts-smartgroup-screenshot.png" title="Contacts Smart Group" alt="Using a Smart Group to Define Contacts to Send"></p>
+
+<p>Kudos to
+<a href="http://www.apple.com/support/bluetooth/" title="Apple Bluetooth Support">Apple</a>,
+<a href="http://www.lge.com/products/category/list/mobile%2520phone.jhtml" title="LG Mobile Phones">LG</a>,
+and the <a href="http://www.bluetooth.org/" title="Bluetooth">Bluetooth Consortium</a> for
+making this all so easy and to <a href="http://www.ccsoftwarefactory.com/">C+C Software Factory</a>
+for creating such a nice utility!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Source for Cheatsheets]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets/"/>
+    <updated>2008-09-09T09:17:03-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets</id>
+    <content type="html"><![CDATA[<p>Check out <a href="http://www.addedbytes.com" title="Added Bytes">Added Bytes</a> and subscribe
+to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Note-to-Self: Java Passion]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion/"/>
+    <updated>2008-07-17T12:34:47-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion</id>
+    <content type="html"><![CDATA[<p>Make sure to check out free online Java-related learning at
+<a href="http://www.javapassion.com">http://www.javapassion.com</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Solaris Goodness]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness/"/>
+    <updated>2008-05-29T13:36:48-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness</id>
+    <content type="html"><![CDATA[<p>Note-to-self: Add <a href="http://prefetch.net/">Prefetch Technologies</a> and
+<a href="http://prefetch.net/blog/">Blog o'Matty</a> to my list of feeds.</p>
+
+<p>Also, check out <a href="http://www.blastwave.org/">Blastwave</a> for OpenSolaris software.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Merge Made by Octopus]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/05/16/merge-made-by-octopus/"/>
+    <updated>2008-05-16T19:58:45-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/05/16/merge-made-by-octopus</id>
+    <content type="html"><![CDATA[<p>I've been coming up to speed on <a href="http://git.or.cz/">Git</a> and swallowing up
+every tutorial and blog entry I can find.</p>
+
+<p>A few days ago, I ran into Jonathan Rockway's very entertaining blog entry
+<a href="http://blog.jrock.us/articles/Git%20merging%20by%20example.pod">Git Merging by Example</a>.
+Great read and very instructive.  But I was particularly amused by
+Jonathan's quote:</p>
+
+<p><blockquote><p>I <em>love</em> the "Merge made by octopus" message; I am seriously going to have a<br/>t-shirt made that says that.  I like it when sea creatures help maintain my<br/>code.</p></blockquote></p>
+
+<p>You know what?  <strong>I</strong> love when sea creatures help out as well.  So, to that
+end I've constructed a little bumper sticker in honor of Git and Jonathan.</p>
+
+<p>Here's a preview:</p>
+
+<p><img class="center" src="/images/2008/05/merge-made-by-octopus_resized.png" title="&#34;Merge Made by Octopus&#34;" alt="&#34;Merge Made by Octopus&#34;"></p>
+
+<p>If you're interested in getting a hold of one of the bumper stickers, leave a
+comment.  Sorry it's not a t-shirt, Jonathan, but maybe someday...</p>
+]]></content>
+  </entry>
+  
+</feed>

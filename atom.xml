@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Reset Again]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2012/07/08/reset-again/"/>
+    <updated>2012-07-08T11:44:00-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2012/07/08/reset-again</id>
+    <content type="html"><![CDATA[<p>Trying once again to reset my blog, this time with
+<a href="http://http://octopress.org/">Octopress</a>.</p>
+
+<p>After some initial search for ways to convert my old
+<a href="http://www.wordpress.org">WordPress</a> blog data, I ended up writing my own
+conversion script using <a href="http://www.mysql.org">MySQL</a> and
+<a href="http://nodejs.org">Node.JS</a>.  In hindsight, I probably should have used
+<a href="https://github.com/thomasf">thomasf&#8217;s</a>
+<a href="https://github.com/thomasf/exitwp">exitwp</a> script but I didn&#8217;t discover it in
+time.</p>
+
+<p>But because I&#8217;d dedicated some time to my script,
+<a href="https://github.com/geneticgrabbag/wp2octopress">wp2octopress</a>, I decided to
+put it up on <a href="http://www.github.com">github</a> so I would at least have a record
+of my efforts and, if it helps someone else, all the merrier.</p>
+
+<p>In any case, this blog now contains the bulk of my posts from the past.  I
+didn&#8217;t post the old comments from WordPress but there&#8217;s some good information
+and questions from some nice folks, so I may look at porting them over in the
+future.</p>
+
+<p>Thanks!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Toto and Disqus]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2010/11/07/toto-and-disqus/"/>
+    <updated>2010-11-07T00:00:00-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2010/11/07/toto-and-disqus</id>
+    <content type="html"><![CDATA[<p>Since I’ve moved from a dynamic blog using
+<a href="http://www.wordpress.org">WordPress</a> to a static one using
+<a href="https://github.com/cloudhead/toto/">toto</a>, I’ve had to outsource my
+commenting system and have decided to try <a href="http://www.disqus.com">Disqus</a>.</p>
+
+<p>I use <a href="http://www.webbynode.com">Webbynode</a> for my hosting (love them) and
+they have a great
+<a href="http://guides.webbynode.com/articles/rapidapps/toto.html">guide</a>
+to setting up and deploying <a href="https://github.com/cloudhead/toto/">toto</a>.</p>
+
+<p>The first step I took was creating an account with
+<a href="http://www.disqus.com">Disqus</a> and
+<a href="http://disqus.com/admin/register/">registering</a>
+<a href="http://epmills.com">epmills.com</a> with them. After you
+<a href="http://disqus.com/admin/register/">register</a> your site,
+<a href="http://www.disqus.com">Disqus</a> provides you with two Javascript scripts to
+add to your site. You also need to add a <code>div</code> as a placeholder
+where <a href="http://www.disqus.com">Disqus</a> will insert any comments for the page
+along with a text area to enter a new comment.</p>
+
+<p>I cloned <a href="https://github.com/cloudhead/dorothy">Dorothy</a> to initially
+set up my blank website.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reboot!]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2010/10/22/reboot-slash/"/>
+    <updated>2010-10-22T00:00:00-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2010/10/22/reboot-slash</id>
+    <content type="html"><![CDATA[<p>Well, Wordpress, it’s been a good ride. But after a recent attempt at
+upgrading left my Admin page blank, I’ve decided to pursue greener pastures.</p>
+
+<p>Being a geek at heart, I’m scoping out blogging software that’s both simple
+and configurable.</p>
+
+<p>Sweetheart Of The Day: <a href="https://github.com/cloudhead/toto/">toto</a>.</p>
+
+<p>Humble beginnings to a reboot of my blog, but it’s time to get my hands a bit
+dirty anyway.</p>
+
+<p>Stay tuned&#8230;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OpenID]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2010/02/17/openid/"/>
+    <updated>2010-02-17T23:46:09-05:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2010/02/17/openid</id>
+    <content type="html"><![CDATA[<p>OpenID links lurk&#8230;
+<link rel="openid.server" href="http://openid.claimid.com/server" />
+<link rel="openid.delegate" href="http://openid.claimid.com/USERNAME" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LG Env Touch + Mac - Contacts]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch--mac---contacts/"/>
+    <updated>2009-08-08T09:22:38-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2009/08/08/lg-env-touch&#8211;mac&#8212;contacts</id>
+    <content type="html"><![CDATA[<p>Stumbled upon a really simple but effective way to copy your contacts from
+your <a href="http://www.apple.com/macosx/" title="Apple Mac OS/X">OS/X</a>
+<a href="http://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html" title="Apple Mac Address Book">Address Book</a>
+onto an <a href="http://en.wikipedia.org/wiki/LG_enV_(VX9900">LG Env Touch</a> &#8220;LG Env Touch on Wikipedia&#8221;).
+The beauty is in how seamlessly the bluetooth operates between the Mac and the
+phone.</p>
+
+<p>The tool is an AppleScript called SendContacts.  You simply create a group in
+Address Book named
+&#8221;<a href="http://ccsoftwarefactory.com/SendContacts/" title="SendContacts Home">SendContacts</a>&#8221;,
+drag the addresses you&#8217;d like to copy to the phone into this group and then
+execute the script.  The script opens Address Book if it&#8217;s not already open
+and copies the addresses in the special group.  My phone is setup to query me
+if an upload is requested so I unlocked my phone, confirmed the upload and
+away the script runs.  It took only a few seconds to copy around 70 contacts.</p>
+
+<p>Nice.</p>
+
+<p>Since a phone is used to, umm, make calls, I created my &#8220;SendContacts&#8221; group
+as a Smart Group defining only those contacts for whom a phone number is
+available:</p>
+
+<p><img class="center" src="http://geneticgrabbag.github.com/images/2009/08/sendcontacts-smartgroup-screenshot.png" title="Contacts Smart Group" alt="Using a Smart Group to Define Contacts to Send"></p>
+
+<p>Kudos to
+<a href="http://www.apple.com/support/bluetooth/" title="Apple Bluetooth Support">Apple</a>,
+<a href="http://www.lge.com/products/category/list/mobile%2520phone.jhtml" title="LG Mobile Phones">LG</a>,
+and the <a href="http://www.bluetooth.org/" title="Bluetooth">Bluetooth Consortium</a> for
+making this all so easy and to <a href="http://www.ccsoftwarefactory.com/">C+C Software Factory</a>
+for creating such a nice utility!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kwanmu]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2009/07/14/kwanmu/"/>
+    <updated>2009-07-14T03:49:00-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2009/07/14/kwanmu</id>
+    <content type="html"><![CDATA[<h2>Variable Ippon</h2>
+
+<ul>
+<li><a href="http://files.getdropbox.com/u/484302/Kwanmu/variable-ippon-1-short.mp4">Variable Ippon 1 (Short)</a></li>
+<li><a href="http://files.getdropbox.com/u/484302/Kwanmu/variable-ippon-2-short.mp4">Variable Ippon 2 (Short)</a></li>
+<li><a href="http://files.getdropbox.com/u/484302/Kwanmu/variable-ippon-3-short.mp4">Variable Ippon 3 (Short)</a></li>
+<li><a href="http://files.getdropbox.com/u/484302/Kwanmu/variable-ippon-4-short.mp4">Variable Ippon 4 (Short)</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Note-to-Self: It's Not ALL Misery]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/09/18/note-to-self-its-not-all-misery/"/>
+    <updated>2008-09-18T05:33:18-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/09/18/note-to-self-its-not-all-misery</id>
+    <content type="html"><![CDATA[<p><a href="http://lookatmeshirts.com/">Look At Me Shirts</a> has a
+<a href="http://lookatmeshirts.com/details.php?pid=394">great take</a> on the recent
+destruction here in Cincy.</p>
+
+<p>Maybe when I get my power back, I&#8217;ll be able to order a few.  <em>sigh</em></p>
+
+<p><img class="center" src="http://geneticgrabbag.github.com/images/2008/09/outage.png" title="&#34;Current Outages in Hamilton County&#34;" alt="&#34;Current Outages in Hamilton County&#34;"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Source for Cheatsheets]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets/"/>
+    <updated>2008-09-09T09:17:03-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/09/09/source-for-cheatsheets</id>
+    <content type="html"><![CDATA[<p>Check out <a href="http://www.addedbytes.com" title="Added Bytes">Added Bytes</a> and subscribe
+to the <a href="http://www.addedbytes.com/blog/feeds/">feeds</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Note-to-Self: Java Passion]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion/"/>
+    <updated>2008-07-17T12:34:47-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/07/17/note-to-self-java-passion</id>
+    <content type="html"><![CDATA[<p>Make sure to check out free online Java-related learning at
+<a href="http://www.javapassion.com">http://www.javapassion.com</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Note-to-Self: Comparison on DVCS Options]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options/"/>
+    <updated>2008-07-09T11:24:21-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/07/09/note-to-self-comparison-on-dvcs-options</id>
+    <content type="html"><![CDATA[<p>Check out
+<a href="http://www.warneronstine.com/blog/articles/2008/07/07/git-mercurial-or-bazaar">this blog entry</a>
+for information on comparing popular distributed version control systems.</p>
+
+<p>Good links to other related information.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Public Data Sets]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/06/25/public-data-sets/"/>
+    <updated>2008-06-25T08:36:44-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/06/25/public-data-sets</id>
+    <content type="html"><![CDATA[<p>Note to self: check out
+<a href="http://www.readwriteweb.com/archives/where_to_find_open_data_on_the.php">this post</a>
+for public data sets that I could use to develop
+<a href="http://en.wikipedia.org/wiki/Rich_Internet_application">RIAs</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Investigate This, Boy]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/06/20/investigate-this-boy/"/>
+    <updated>2008-06-20T13:38:45-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/06/20/investigate-this-boy</id>
+    <content type="html"><![CDATA[<p>Note to self: check out <a href="http://livepipe.net/">LivePipe</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Solaris Goodness]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness/"/>
+    <updated>2008-05-29T13:36:48-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/05/29/solaris-goodness</id>
+    <content type="html"><![CDATA[<p>Note-to-self: Add <a href="http://prefetch.net/">Prefetch Technologies</a> and
+<a href="http://prefetch.net/blog/">Blog o&#8217;Matty</a> to my list of feeds.</p>
+
+<p>Also, check out <a href="http://www.blastwave.org/">Blastwave</a> for OpenSolaris software.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Merge Made by Octopus]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/05/16/merge-made-by-octopus/"/>
+    <updated>2008-05-16T19:58:45-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/05/16/merge-made-by-octopus</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been coming up to speed on <a href="http://git.or.cz/">Git</a> and swallowing up
+every tutorial and blog entry I can find.</p>
+
+<p>A few days ago, I ran into Jonathan Rockway&#8217;s very entertaining blog entry
+<a href="http://blog.jrock.us/articles/Git%20merging%20by%20example.pod">Git Merging by Example</a>.
+Great read and very instructive.  But I was particularly amused by
+Jonathan&#8217;s quote:</p>
+
+<blockquote><p>I *love* the &#8220;Merge made by octopus&#8221; message; I am seriously going to have a<br/>t-shirt made that says that.  I like it when sea creatures help maintain my<br/>code.</p></blockquote>
+
+
+<p>You know what?  <strong>I</strong> love when sea creatures help out as well.  So, to that
+end I&#8217;ve constructed a little bumper sticker in honor of Git and Jonathan.</p>
+
+<p>Here&#8217;s a preview:</p>
+
+<p><img class="center" src="http://geneticgrabbag.github.com/images/2008/05/merge-made-by-octopus_resized.png" title="&#34;Merge Made by Octopus&#34;" alt="&#34;Merge Made by Octopus&#34;"></p>
+
+<p>If you&#8217;re interested in getting a hold of one of the bumper stickers, leave a
+comment.  Sorry it&#8217;s not a t-shirt, Jonathan, but maybe someday&#8230;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books on the Cheap]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/05/15/books-on-the-cheap/"/>
+    <updated>2008-05-15T13:25:50-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/05/15/books-on-the-cheap</id>
+    <content type="html"><![CDATA[<p>Note to self: check out <a href="http://www.addall.com">AddAll </a>for good values on
+books, both new and used.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Background Processing in a Spring Web Application]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2008/05/01/background-processing-in-a-spring-web-application/"/>
+    <updated>2008-05-01T13:46:14-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2008/05/01/background-processing-in-a-spring-web-application</id>
+    <content type="html"><![CDATA[<p>From the &#8220;Huh, well that&#8217;s cool&#8221; department&#8230;</p>
+
+<p>Today I figured how to run a background process from within a web application
+that utilizes Spring 2.0 or greater.  At first, I investigated all sorts of
+ways of adding multithreading to a web application before stumbling upon this
+gem.</p>
+
+<p>The key is that Spring provides a class, TaskExecutor, that allows you to run
+a background task by simply creating a class that implements the Runnable
+interface and hooking it up to your application with some simple configuration.</p>
+
+<p>In short, as Spring allows Java web developers to program using POJOs and not
+against a set of interfaces, TaskExecutor and its cohorts allow us to do
+background processing using simple classes instead of forcing us to handle the
+ugly details of multithreading and synchronization ourselves.</p>
+
+<p>Thanks, <a href="http://blog.springsource.com/main/">Spring dudes</a>!  Once again, you
+save the day.</p>
+
+<p>See <a href="http://static.springframework.org/spring/docs/2.0.x/reference/scheduling.html#scheduling-task-executor-usage" title="Chapter 23"> Chapter 23</a>
+of the <a href="http://static.springframework.org/spring/docs/2.0.x/reference/" title="Spring Framework documentation">Spring Framework documentation</a>
+for more information.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Public Key]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2007/01/11/new-public-key/"/>
+    <updated>2007-01-11T04:42:52-05:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2007/01/11/new-public-key</id>
+    <content type="html"><![CDATA[<p>I have a newly-minted <a href="http://www.gnupg.org/" title="GNU Privacy Guard">GnuPG</a> key
+that I can use to sign and encrypt emails.</p>
+
+<p>Check the details out
+<a href="http://pubkey.epmills.com" title="My Public Key Details">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Public Key]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2007/01/10/public-key/"/>
+    <updated>2007-01-10T11:36:46-05:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2007/01/10/public-key</id>
+    <content type="html"><![CDATA[<h2>UPDATE!</h2>
+
+<blockquote><p>THIS BLOG ENTRY IS NO LONGER VALID!<br/>THE PUBLIC KEY LISTED BELOW HAS BEEN REVOKED.</p></blockquote>
+
+
+<p>For those of you wishing to communicate with me privately, I have a new public
+encryption key.</p>
+
+<p>The key was generated by and for
+<a href="http://www.gnupg.org/" title="GNU Privacy Guard">GnuPG</a>.  The key&#8217;s fingerprint
+(used to verify emails and data you receive from me) is:</p>
+
+<blockquote><p>0D51 5BBF 70E0 931E CC8F  623D BDB9 101B 5065 C9A5</p></blockquote>
+
+<p>Here is the
+<a href="http://www.gnupg.org/gph/en/manual.html#AEN464" title="Public Keys and Key Distribution">public key</a>,
+suitable for importing into you keyring:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>-----BEGIN PGP PUBLIC KEY BLOCK-----
+</span><span class='line'>Version: GnuPG v1.4.5 (Darwin)
+</span><span class='line'>
+</span><span class='line'>mQGiBEWlUisRBACs8tIZy+koWpog4TFNJvuAhxUW/hVI2JjfPgRpbiLDlIHRkA8S
+</span><span class='line'>q2auVlUdRma6tgNJjW7H/Ufz6MXZquv0YGci6mbUek8UBWP0kMqv7k4GY04CIGV9
+</span><span class='line'>AghicKBQVEVIpLjqEVrtBwvyuW1jNTvaKrOpyp8Cis65v2De5ZwMvQNwAwCgt9E9
+</span><span class='line'>c3bWVIA9hcGgV3Y2gI5ZbrEEAJwHGa9doJDHcWiGzCqF00/s8uPnMVFDwo4tdU5m
+</span><span class='line'>AzKTzK63ytZemYJkY0hemqylZvbw+WuKBg1s9xICKJ7VXpGJIeRgkRLIYMQHOHh6
+</span><span class='line'>PCm2yPjGeew77XpgjNSeVvCo/WoiObTwlYmFJRiE9OZUUkbclWOS4QWuM2bNKdzW
+</span><span class='line'>QLV9A/4lT3Xc7EaqZNHa4k4TLLnN26UGHQ0WDdYNsjh/AEmu6/rPsCexWX1bYavh
+</span><span class='line'>sfLoaU/kI4fvflXnFsYE8eYjety0TcdBTrVZiI79HxoNHAQ0BpiEK87GlFBIOrid
+</span><span class='line'>8Z8pwYYirx9TlgDDk2OnmD9Rz6Cz8fnsTZRQSeQ9yE/18Uqvz7RARXZhbiBNaWxs
+</span><span class='line'>cyAoaHR0cDovL3B1YmtleS5lcG1pbGxzLmNvbSkgPGV2YW4ucHVia2V5QGVwbWls
+</span><span class='line'>bHMuY29tPohgBBMRAgAgBQJFpVIrAhsjBgsJCAcDAgQVAggDBBYCAwECHgECF4AA
+</span><span class='line'>CgkQvbkQG1BlyaUUAgCgiX6dBiGUDSfCugPC78gfwkWC9H0An27Ug/VopSSrnaoa
+</span><span class='line'>L2NxPP1G7CTBuQQNBEWlVDwQEACsytkUvHoi+ZT9GHNg7rxw7+z2cKh7MBzhv6e+
+</span><span class='line'>nhZXrHMLf3tvD/Jw9fLENjlRNyc9tFEaKVn57AlhcPEphLv69SjQmvU07Nzi4pTj
+</span><span class='line'>C0NZshS1gOdQ85ZD3PuG6tj/1c4w4YJyMKNLF6i3Ak2hzdyyOwTR8ihDeSH0vHqI
+</span><span class='line'>dGSKEU/04ply3+9IDgoB2zFLnzs9UAbNx29jdiM7XZkU2CnIy0akHilfMNl7+ZQb
+</span><span class='line'>xgiX0yMMSwwYFS4wXQFnTc0q1iWIzSmvtzX3eFFWo4A1oOXSULCi8C0W4OYRoI7+
+</span><span class='line'>xPTzd3oywu5wZVlyA2QTXJGUdlQalBo8WyFzT9cnE+8yuQon2PXUya0JudeqycGq
+</span><span class='line'>Xr9Bd8uvTi/nr5afiPGk/ZFRbVkphduTtV6Tw7L/KtmNrDXhIkKst+2UovcJ5p6D
+</span><span class='line'>H839dh0nY9w3+IfrlgrYamQsve171kBVfU52xTw4BhnuHNQLkZbv5UT/3mWaAanq
+</span><span class='line'>TF2RqMsMinKMw4HTniZKQbbbclpTxg6JXGPzKrMUX4IrPrxumJTPJ1kjyySqmLfq
+</span><span class='line'>z2z6MVG0/COPv84PTmENrMZUXyLahuJ0qi4bg3nxvIDwomhh50WhdmBpvVGdA3dO
+</span><span class='line'>Op7CivQ4ZXsXFuUbWLrl1DCW9N+N4mrEcN4zOkdXeRRWLt08KAxKewS/0UOFtKlb
+</span><span class='line'>/pwtpwADBQ//SniP6jXXrC7oqUfgdWTj1ckdhz9M0aPDorLijoKAvkOArPrEWLet
+</span><span class='line'>9oiQICJonyXV2y0JwnEhfj8MNMncwZ47LvwYDyXGRs6dEbS2hW3xVylm9qOurlzv
+</span><span class='line'>0Ijqosm61jpMBIzb6xA4zG4tvOF2kqlmqDbP0Wh+zQSASocGRVLSpQEGly375yFb
+</span><span class='line'>moH6Dux4rJVE//IZ7PRoiW2WVA3u9rSPAEE9PufmAnrI8ErEcM/yRp6ri4M8Bn0c
+</span><span class='line'>q6yqs1WAP617BZR5cTgDVleYa80b6DkiSocx8+1tDNwwa5I0iEvL0U7kveL1H0Vu
+</span><span class='line'>dIxxkXmN7jXdPTvjD4/kONlnSM3UbE7Y2OmSb8Rly7I63R68kqFVgHQ2B9q3pM+9
+</span><span class='line'>Lhv3BdUpc7wbiiEWcgumyx0T7HgMlH+irK+T5mijFh/e1z4OD5gnW9BQW+lkp83v
+</span><span class='line'>DLB5FLdDY8+8f9cxIim73AKSfalXGXvmCQ5DYsK5dTuPpAxqa6z9/iNvSrdZ/MRg
+</span><span class='line'>fjESFnFpJFB8vI7LsEdvw9bmwsCbf/TcOYIMi2+3Zdueh9gwb1yf7Foo4a23iOCS
+</span><span class='line'>lGCeREBU4nwbAW8unN+LM0aOJEFY5giwaZSqJwMJPql2PLML7TdwUMtyn64vgr/k
+</span><span class='line'>/xZLmQz8dKHUqFN+BVI0zSYBueNbpCKplAxBs/uEr5hCn/QLJOAAzJaISQQYEQIA
+</span><span class='line'>CQUCRaVUPAIbDAAKCRC9uRAbUGXJpbtLAJ0QxtHVpXC7B45G8B0wA5ud9Od3OACf
+</span><span class='line'>TAX3R4+6LL9Juzu2aNtrS85dG4o=
+</span><span class='line'>=pm7k
+</span><span class='line'>-----END PGP PUBLIC KEY BLOCK-----</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fingers, Mid-December, 2006]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/12/13/fingers-mid-december-2006/"/>
+    <updated>2006-12-13T12:11:28-05:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/12/13/fingers-mid-december-2006</id>
+    <content type="html"><![CDATA[<p>Well, it&#8217;s the middle of December and my fingernails continue to improve.</p>
+
+<!--more-->
+
+
+<p>I&#8217;m happy to report that the
+<a href="http://geneticgrabbag.github.com/blog/2006/08/26/my-fingers-as-of-the-end-of-august/">orphans are doing well</a>
+and my middle finger (the one that gets the most use) is nearly back to normal.</p>
+
+<p>The nail is sticking to the bed and, except for more white at the nail&#8217;s edge
+than usual, it&#8217;s back to business.</p>
+
+<p><img class="center" src="http://geneticgrabbag.github.com/images/2006/12/nails-2006-12.jpg" title="&#34;My Fingers - On the Mend&#34;" alt="&#34;My Fingers - On the Mend&#34;"></p>
+
+<p>The ring finger&#8217;s not as well but quite useable.  When the wound first healed
+a small lump of new ping skin grew where the nail was previously.  As the nail
+grew, it tried to do a wheelie up and over this hump, driving the nail skyward.
+Slowly, this hump appears to be driven out by the new nail and my hope is that
+in a year&#8217;s time the entire nail will lie flat.</p>
+
+<p><img class="center" src="http://geneticgrabbag.github.com/images/2006/12/upturn-nail-2006-12.jpg" title="&#34;My Fingers - Upturned Nail&#34;" alt="&#34;My Fingers - Upturned Nail&#34;"></p>
+
+<p>Considering the shape of the ring finger
+<a href="http://geneticgrabbag.github.com/blog/2006/08/26/my-fingers-as-of-the-end-of-august/">previously</a>, it&#8217;s in
+remarkably good shape.</p>
+
+<p>Look for an update in March.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Christmas Gift Ideas]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/11/29/christmas-gift-ideas/"/>
+    <updated>2006-11-29T12:41:37-05:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/11/29/christmas-gift-ideas</id>
+    <content type="html"><![CDATA[<p>I know, I know&#8230;  You&#8217;re all clamoring to get me the coolest gift for
+Christmas.</p>
+
+<p>Well, never fear, here are some ideas.  And while they&#8217;re sure to make the
+anti-geek in you cringe, they&#8217;re also sure to make me happy.  And don&#8217;t we all
+just love happy Evans?</p>
+
+<p>If you&#8217;re Internetaphobic, just check with Nea - she&#8217;s sure to help you out.</p>
+
+<p>Apparel (shirts in XL, if you please):</p>
+
+<ul>
+<li><a href="http://www.jinx.com/scripts/details.asp?productID=229">All Your Oil&#8230; t-shirt</a> - Highest on my list! <em><em>backordered</em></em></li>
+<li><a href="http://www.cafepress.com/igniterealtime.90657338">Ignite Realtime t-shirt</a> - Black or navy&#8217;s fine</li>
+<li><a href="http://www.goodstorm.com/item/creativecommons/nd">Creative Commons ND t-shirt (lightweight/red)</a></li>
+<li><a href="http://shop.gawker.com/cgi-bin/shopper.cgi?preadd=action&amp;key=LFT02">Productively Lazy t-shirt </a></li>
+<li><a href="http://shop.gawker.com/cgi-bin/shopper.cgi?preadd=action&amp;key=lft01">LifeHacker t-shirt </a></li>
+<li><a href="http://www.jinx.com/scripts/details.asp?productID=535">Please wait&#8230; t-shirt </a></li>
+<li><a href="http://www.jinx.com/scripts/details.asp?productID=310">Every time&#8230; </a></li>
+<li><a href="http://www.jinx.com/scripts/details.asp?productID=328">All Your Base&#8230;</a></li>
+<li>Durable, cool-looking sunglasses (I <em>will</em> treat them roughly!)
+Gift cards in any denomination from any of these fine establishments:</li>
+<li><a href="http://www.starbucks.com/card/purchasecard.asp">Starbucks</a></li>
+<li><a href="http://www.amazon.com/gp/product/B00067L6TQ/ref=sv_gw_0/105-1849510-2466867">Amazon.com</a></li>
+<li><a href="https://www.buy.com/retail/giftcenter/giftcertificate.asp">Buy.com</a></li>
+<li><a href="http://www.graeters.com/new_buy_gift.cfm">Graeter&#8217;s</a></li>
+<li><a href="https://kronos.giftcardsolutions.com/panera/pcard/index.cgi?gopage=buy">Panera </a>(Evan&#8217;s <em>other</em> office!)</li>
+<li><a href="http://www.compusa.com/products/giftcard.asp?cmid=top">CompUSA</a></li>
+<li><a href="http://www.microcenter.com">Micro Center</a>
+Entertainment</li>
+<li><a href="http://www.amazon.com/Family-Guy-Vol-Season-Part/dp/B000HT3P6U/sr=8-1/qid=1164987873/ref=pd_bbs_sr_1/103-5990901-7767058?ie=UTF8&amp;s=dvd">Family Guy, Season 4</a>
+Computer Shtuff</li>
+<li><a href="https://www.regnow.com/softsell/nph-softsell.cgi?action=add_to_cart&amp;items=13166-13&amp;quantity=1">Parallels Desktop for Mac</a> - Lets you run Windows on an Apple.</li>
+<li><a href="http://www.amazon.com/Kensington-64344-MicroSaver-Combination-Notebook/dp/B000FLQWRO/sr=8-6/qid=1164993142/ref=pd_bbs_sr_6/103-5990901-7767058?ie=UTF8&amp;s=electronics">Kensington Laptop Lock</a></li>
+<li><a href="http://speckproducts.com/15mac-seethru.html">Clear Protective Case for Laptop</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

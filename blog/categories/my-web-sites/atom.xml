@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: my-web-sites | Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/blog/categories/my-web-sites/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Gentlemen, Start Your Feedback]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/26/gentlemen-start-your-feedback/"/>
+    <updated>2006-04-26T11:48:23-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/26/gentlemen-start-your-feedback</id>
+    <content type="html"><![CDATA[<p>I've turned on comments after I found comment spam protection in the form of a
+<a href="http://en.wikipedia.org/wiki/Captcha" title="CAPTCHA on Wikipedia">CAPTCHA</a> code.
+Comments are still moderated; however, by typing in the letters and numbers
+hown in an image on the comments page you can provide feedback on my posts.</p>
+
+<p>So if you've got any questions or gripes about the ramblings you read on this
+site, please, let me know!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Theme]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/26/new-theme/"/>
+    <updated>2006-04-26T11:40:14-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/26/new-theme</id>
+    <content type="html"><![CDATA[<p>I've updated the site to use <a href="http://www.kaushalsheth.com/">Kaushal Sheth</a>'s
+sweet <a href="http://www.kaushalsheth.com/blue-horizon-wordpress-theme-with-sidebar-widget-support/" title="Blue Horizon Theme">Blue Horizon</a> theme.</p>
+
+<p>Hope you like!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Added My Sites]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/06/added-my-sites/"/>
+    <updated>2006-04-06T08:57:25-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/06/added-my-sites</id>
+    <content type="html"><![CDATA[<p>Added a new category to the sidebar entitled <strong>My Sites</strong> containing links to sites I've developed.</p>
+
+<!--more-->
+
+
+<p>The initial list is:</p>
+
+<ul>
+<li><a href="http://europe2006.millsforge.com" title="Europe 2006">Europe 2006</a> - A protected collaboration site for our family vacation to Europe during the summer of 2006.</li>
+<li><a href="http://kinkymuffins.millsforge.com" title="KinkyMuffins">KinkyMuffins</a> - A site dedicated to our exchange student Sarah's stay in the U.S.  Very spartan.</li>
+<li><a href="http://xip.millsforge.com" title="My External IP">My External IP</a> - When clicked shows you your external (public-facing) IP address (ala http://www.formyip.com)</li>
+<li><a href="http://senecaguides.org" title="Seneca Guides">Seneca Guides</a> - A protected collaboration site for my YMCA Indian Guides tribe.</li>
+<li><a href="http://stvitalesday.com" title="St. Vitale">St. Vitale's Day</a> - A site regarding the first day of the NCAA Men's Basketball Tournament.</li>
+<li><a href="http://share.stvitalesday.com" title="St. Vitale">St. Vitale's Day Wiki</a> - A protected collaboration site for coordinating SVD information.</li>
+<li><a href="http://wildwings.millsforge.com" title="WildWings">WildWings</a> - A protected collaboration site for our vacation home.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[St. Vitale's Day Site Prepared for 2007]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/03/st-vitales-day-site-prepared-for-2007/"/>
+    <updated>2006-04-03T10:06:23-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/03/st-vitales-day-site-prepared-for-2007</id>
+    <content type="html"><![CDATA[<p>For members of the
+<a href="http://share.stvitalesday.com">St. Vitale's Day Collaboration Project</a>, I've
+done some pruning and sheering to prep the site for SVD 2007.</p>
+]]></content>
+  </entry>
+  
+</feed>

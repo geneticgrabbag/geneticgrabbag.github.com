@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: st-vitales-day | Evan P. Mills' Ramblings]]></title>
+  <link href="http://geneticgrabbag.github.com/blog/categories/st-vitales-day/atom.xml" rel="self"/>
+  <link href="http://geneticgrabbag.github.com/"/>
+  <updated>2012-07-16T20:03:44-04:00</updated>
+  <id>http://geneticgrabbag.github.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[St. Vitale's Day Site Prepared for 2007]]></title>
+    <link href="http://geneticgrabbag.github.com/blog/2006/04/03/st-vitales-day-site-prepared-for-2007/"/>
+    <updated>2006-04-03T10:06:23-04:00</updated>
+    <id>http://geneticgrabbag.github.com/blog/2006/04/03/st-vitales-day-site-prepared-for-2007</id>
+    <content type="html"><![CDATA[<p>For members of the
+<a href="http://share.stvitalesday.com">St. Vitale's Day Collaboration Project</a>, I've
+done some pruning and sheering to prep the site for SVD 2007.</p>
+]]></content>
+  </entry>
+  
+</feed>
