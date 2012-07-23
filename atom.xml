@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Evan P. Mills' Ramblings]]></title>
+  <title><![CDATA[Evan P. Mills]]></title>
   <link href="http://blog.epmills.com/atom.xml" rel="self"/>
   <link href="http://blog.epmills.com/"/>
-  <updated>2012-07-16T22:36:26-04:00</updated>
+  <updated>2012-07-23T19:00:54-04:00</updated>
   <id>http://blog.epmills.com/</id>
   <author>
     <name><![CDATA[Evan P. Mills]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fraser Spiers on Skills Our Children Need]]></title>
+    <link href="http://blog.epmills.com/blog/2012/07/22/fraser-spiers-on-skills-our-children-need/"/>
+    <updated>2012-07-22T22:20:00-04:00</updated>
+    <id>http://blog.epmills.com/blog/2012/07/22/fraser-spiers-on-skills-our-children-need</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been looking for some new podcasts for my commute to and from work.
+I ran across the <a href="http://5by5.tv/mpu">Mac Power Users</a> podcast.
+<a href="http://5by5.tv/people/david-sparks">David Sparks</a> and
+<a href="http://5by5.tv/people/katie-floyd">Katie Floyd</a> present some pretty cool
+stuff on Macs and OS/X.</p>
+
+<p><a href="http://5by5.tv/mpu/93">Episode #93: Education Workflows with Fraser Speirs</a>
+really drew me in. <a href="http://speirs.org/">Mr. Spiers</a> is a very engaging
+speaker and his views on education impressive.  He&#8217;s implemented a
+one-student-one-iPad program at
+<a href="cedars.inverclyde.sch.uk/">Cedars School of Excellence</a>
+in his native Scotland.</p>
+
+<p>One thing he said really grabbed me (paraphrasing):</p>
+
+<blockquote><p>Word processing is becoming a skill for secretaries while creating<br/>    presentations that persuade an audience is becoming a skill for CEOs.</p></blockquote>
+
+
+<p>So, I used this as a teaching moment for my son who often asks</p>
+
+<blockquote><p>When will I ever use THAT in the real world?</p></blockquote>
+
+
+<p>Well, next time you&#8217;re working on a PowerPoint presentation for school, ask
+yourself, &#8220;wouldn&#8217;t you rather be paid a CEO&#8217;s salary?&#8221;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Reset Again]]></title>
@@ -462,51 +495,6 @@ in a year&#8217;s time the entire nail will lie flat.</p>
 remarkably good shape.</p>
 
 <p>Look for an update in March.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Christmas Gift Ideas]]></title>
-    <link href="http://blog.epmills.com/blog/2006/11/29/christmas-gift-ideas/"/>
-    <updated>2006-11-29T12:41:37-05:00</updated>
-    <id>http://blog.epmills.com/blog/2006/11/29/christmas-gift-ideas</id>
-    <content type="html"><![CDATA[<p>I know, I know&#8230;  You&#8217;re all clamoring to get me the coolest gift for
-Christmas.</p>
-
-<p>Well, never fear, here are some ideas.  And while they&#8217;re sure to make the
-anti-geek in you cringe, they&#8217;re also sure to make me happy.  And don&#8217;t we all
-just love happy Evans?</p>
-
-<p>If you&#8217;re Internetaphobic, just check with Nea - she&#8217;s sure to help you out.</p>
-
-<p>Apparel (shirts in XL, if you please):</p>
-
-<ul>
-<li><a href="http://www.jinx.com/scripts/details.asp?productID=229">All Your Oil&#8230; t-shirt</a> - Highest on my list! <em><em>backordered</em></em></li>
-<li><a href="http://www.cafepress.com/igniterealtime.90657338">Ignite Realtime t-shirt</a> - Black or navy&#8217;s fine</li>
-<li><a href="http://www.goodstorm.com/item/creativecommons/nd">Creative Commons ND t-shirt (lightweight/red)</a></li>
-<li><a href="http://shop.gawker.com/cgi-bin/shopper.cgi?preadd=action&amp;key=LFT02">Productively Lazy t-shirt </a></li>
-<li><a href="http://shop.gawker.com/cgi-bin/shopper.cgi?preadd=action&amp;key=lft01">LifeHacker t-shirt </a></li>
-<li><a href="http://www.jinx.com/scripts/details.asp?productID=535">Please wait&#8230; t-shirt </a></li>
-<li><a href="http://www.jinx.com/scripts/details.asp?productID=310">Every time&#8230; </a></li>
-<li><a href="http://www.jinx.com/scripts/details.asp?productID=328">All Your Base&#8230;</a></li>
-<li>Durable, cool-looking sunglasses (I <em>will</em> treat them roughly!)
-Gift cards in any denomination from any of these fine establishments:</li>
-<li><a href="http://www.starbucks.com/card/purchasecard.asp">Starbucks</a></li>
-<li><a href="http://www.amazon.com/gp/product/B00067L6TQ/ref=sv_gw_0/105-1849510-2466867">Amazon.com</a></li>
-<li><a href="https://www.buy.com/retail/giftcenter/giftcertificate.asp">Buy.com</a></li>
-<li><a href="http://www.graeters.com/new_buy_gift.cfm">Graeter&#8217;s</a></li>
-<li><a href="https://kronos.giftcardsolutions.com/panera/pcard/index.cgi?gopage=buy">Panera </a>(Evan&#8217;s <em>other</em> office!)</li>
-<li><a href="http://www.compusa.com/products/giftcard.asp?cmid=top">CompUSA</a></li>
-<li><a href="http://www.microcenter.com">Micro Center</a>
-Entertainment</li>
-<li><a href="http://www.amazon.com/Family-Guy-Vol-Season-Part/dp/B000HT3P6U/sr=8-1/qid=1164987873/ref=pd_bbs_sr_1/103-5990901-7767058?ie=UTF8&amp;s=dvd">Family Guy, Season 4</a>
-Computer Shtuff</li>
-<li><a href="https://www.regnow.com/softsell/nph-softsell.cgi?action=add_to_cart&amp;items=13166-13&amp;quantity=1">Parallels Desktop for Mac</a> - Lets you run Windows on an Apple.</li>
-<li><a href="http://www.amazon.com/Kensington-64344-MicroSaver-Combination-Notebook/dp/B000FLQWRO/sr=8-6/qid=1164993142/ref=pd_bbs_sr_6/103-5990901-7767058?ie=UTF8&amp;s=electronics">Kensington Laptop Lock</a></li>
-<li><a href="http://speckproducts.com/15mac-seethru.html">Clear Protective Case for Laptop</a></li>
-</ul>
-
 ]]></content>
   </entry>
   

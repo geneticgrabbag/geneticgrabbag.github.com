@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: education | Evan P. Mills]]></title>
+  <link href="http://blog.epmills.com/blog/categories/education/atom.xml" rel="self"/>
+  <link href="http://blog.epmills.com/"/>
+  <updated>2012-07-23T19:00:54-04:00</updated>
+  <id>http://blog.epmills.com/</id>
+  <author>
+    <name><![CDATA[Evan P. Mills]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fraser Spiers on Skills Our Children Need]]></title>
+    <link href="http://blog.epmills.com/blog/2012/07/22/fraser-spiers-on-skills-our-children-need/"/>
+    <updated>2012-07-22T22:20:00-04:00</updated>
+    <id>http://blog.epmills.com/blog/2012/07/22/fraser-spiers-on-skills-our-children-need</id>
+    <content type="html"><![CDATA[<p>I've been looking for some new podcasts for my commute to and from work.
+I ran across the <a href="http://5by5.tv/mpu">Mac Power Users</a> podcast.
+<a href="http://5by5.tv/people/david-sparks">David Sparks</a> and
+<a href="http://5by5.tv/people/katie-floyd">Katie Floyd</a> present some pretty cool
+stuff on Macs and OS/X.</p>
+
+<p><a href="http://5by5.tv/mpu/93">Episode #93: Education Workflows with Fraser Speirs</a>
+really drew me in. <a href="http://speirs.org/">Mr. Spiers</a> is a very engaging
+speaker and his views on education impressive.  He's implemented a
+one-student-one-iPad program at
+<a href="cedars.inverclyde.sch.uk/">Cedars School of Excellence</a>
+in his native Scotland.</p>
+
+<p>One thing he said really grabbed me (paraphrasing):
+<blockquote><p></p></p><p><pre><code>Word processing is becoming a skill for secretaries while creating<br/>presentations that persuade an audience is becoming a skill for CEOs.<br/></code></pre></p><p><p></p></blockquote></p>
+
+<p>So, I used this as a teaching moment for my son who often asks
+<blockquote><p></p></p><p><pre><code>When will I ever use THAT in the real world?<br/></code></pre></p><p><p></p></blockquote></p>
+
+<p>Well, next time you're working on a PowerPoint presentation for school, ask
+yourself, "wouldn't you rather be paid a CEO's salary?"</p>
+]]></content>
+  </entry>
+  
+</feed>
